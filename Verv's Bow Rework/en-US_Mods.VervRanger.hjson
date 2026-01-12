@@ -1,0 +1,34 @@
+Projectiles: {
+	BowAnchor.DisplayName: Bow Anchor
+	BowAnchorArrow.DisplayName: Bow Anchor Arrow
+}
+
+Items: {
+	MarksmanMedal: {
+		DisplayName: Marksman Medal
+		Tooltip:
+			'''
+			Every third successive fully charged arrow on the same target critically strikes
+			This critical strike deals increased damage based on critical strike chance
+			'''
+	}
+
+	CrystalBell: {
+		DisplayName: Crystal Bell
+		Tooltip: Allows 'perfectly timing' arrows, for 20% increased damage
+	}
+
+	BowStringReinforced: {
+		DisplayName: Reinforced Bow String
+		Tooltip: Bows charge 33% slower, but deal 50% increased damage
+	}
+
+	BowStringMechanical: {
+		DisplayName: Mechanical Bow String
+		Tooltip:
+			'''
+			Bows charge 33% slower, but deal 50% increased damage
+			Increases arrow damage by 15% 
+			'''
+	}
+}
