@@ -212,7 +212,7 @@ Configs: {
 				Allows Biome Chests to be transmuted back into their respective Biome Key
 				Warning: Using this is discouraged, as it doesn't account for mods potentially adding unlocked Biome Chests to pre-Plantera areas!
 				This feature also includes support for the following mods;
-				Thorium Mod, Capture Disc Class
+				Thorium Mod, The Clicker Class, Capture Disc Class, Rise of Ages
 				'''
 		}
 
