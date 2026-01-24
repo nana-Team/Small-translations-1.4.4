@@ -32,3 +32,15 @@ Items: {
 			'''
 	}
 }
+
+Configs: {
+	VervRangerConfig: {
+		DisplayName: Verv Ranger Config
+		Headers.Holdout: Bows
+
+		Holdout: {
+			Label: Bow Holdout
+			Tooltip: Whether bows should be displayed in hand while idle
+		}
+	}
+}
