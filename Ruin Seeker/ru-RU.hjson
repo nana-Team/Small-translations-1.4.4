@@ -74,16 +74,16 @@ Mods: {
 			Gabbro_Rubble_Large_Tile.MapEntry: Обломки габбро
 			Gabbro_Rubble_Medium_Tile.MapEntry: Обломки габбро
 			Gabbro_Rubble_Small_Tile.MapEntry: Обломки габбро
-			Gabbro_Stalactite_Tile.MapEntry: "{$Items.Gabbro_Stalactite.DisplayName}"
-			Gabbro_Stalagmite_Tile.MapEntry: "{$Items.Gabbro_Stalagmite.DisplayName}"
+			Gabbro_Stalactite_Tile.MapEntry: Сталактит
+			Gabbro_Stalagmite_Tile.MapEntry: Сталагмит
 			Hallowed_Bushes_Tile.MapEntry: "{$Items.Hallowed_Bush.DisplayName}"
 			Lifesap_Bush_Tile.MapEntry: Куст живительной смолы
-			Limestone_Rubble_Large_Tile.MapEntry: "{$Items.Limestone_Rubble_Large.DisplayName}"
-			Limestone_Rubble_Medium_Tile.MapEntry: "{$Items.Limestone_Rubble_Medium.DisplayName}"
+			Limestone_Rubble_Large_Tile.MapEntry: Обломки известняка
+			Limestone_Rubble_Medium_Tile.MapEntry: Обломки известняка
 			Limestone_Rubble_Small_Tile.MapEntry: "{$Items.Limestone_Rubble_Small.DisplayName}"
-			Limestone_Stalactite_Tile.MapEntry: "{$Items.Limestone_Stalactite.DisplayName}"
-			Limestone_Stalagmite_Tile.MapEntry: "{$Items.Limestone_Stalagmite.DisplayName}"
-			Limestone_Stalagnate_Tile.MapEntry: "{$Items.Limestone_Stalagnate.DisplayName}"
+			Limestone_Stalactite_Tile.MapEntry: Сталактит
+			Limestone_Stalagmite_Tile.MapEntry: Сталагмит
+			Limestone_Stalagnate_Tile.MapEntry: Сталагнат
 			Meadow_Grass_Short_Tile.MapEntry: Трава луга
 			Meadow_Grass_Tall_Tile.MapEntry: Трава луга
 			Meadow_Vines_Tile.MapEntry: Лоза луга
@@ -107,12 +107,14 @@ Mods: {
 			Purple_Mushroom_Small_Tile.MapEntry: "{$Items.Purple_Mushroom_Small.DisplayName}"
 			Red_Mushroom_Small_Tile.MapEntry: "{$Items.Red_Mushroom_Small.DisplayName}"
 			Roots_Tile.MapEntry: "{$Items.Roots.DisplayName}"
+			Seeded_Lifesap_Bush_Tile.MapEntry: Куст живительной смолы
 			Small_Snow_Pile_Tile.MapEntry: Сугроб 
 			Snow_Bushes_Tile.MapEntry: "{$Items.Snow_Bushes.DisplayName}"
 			Snow_Grasses_Tile.MapEntry: "{$Items.Snow_Grasses.DisplayName}"
-			Snow_Pile_Tile.MapEntry: Сугроб 
+			Snow_Pile_Tile.MapEntry: Сугроб
 			Sunspot_Tile.MapEntry: "{$Items.Sunspot.DisplayName}"
 			Wall_Mushroom_Tile.MapEntry: "{$Items.Wall_Mushroom.DisplayName}"
+			Birch_Tree.MapEntry: Берёза
 			Leafy_Plant_Tile.MapEntry: "{$Items.Leafy_Plant.DisplayName}"
 			Magmabulb_Tile.MapEntry: "{$Items.Magmabulb.DisplayName}"
 			Raindrop_Lotus_Tile.MapEntry: "{$Items.Raindrop_Lotus.DisplayName}"
