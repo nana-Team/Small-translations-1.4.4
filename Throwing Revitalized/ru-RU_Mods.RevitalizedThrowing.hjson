@@ -1,6 +1,6 @@
 CommonItemTooltip: {
 	PercentThrowingDamageIncrease: Увеличивает метательный урон на {0}%
-	PercentThrowingCritChanceIncrease: Увеличивает шанс метательный критического удара на {0}%
+	PercentThrowingCritChanceIncrease: Увеличивает шанс метательного критического удара на {0}%
 	PercentThrowingVelocityIncrease: Увеличивает скорость метательных снарядов на {0}%
 	PercentThrowingConsumeDecrease: Даёт {0}% шанс не потратить метательное оружие
 	PercentAssassinCooldownDecrease: Снижает время перезарядки убийственного удара на {0}%
@@ -30,7 +30,7 @@ Items: {
 			{$CommonItemTooltip.IsAssassinWeapon}
 			Враги, поражённые напрямую оружием, получают 7-секундный дебафф
 			Этот дебафф заставляет врагов испускать искры при получении урона
-			Получение врагами урона от искры могут продлить этот дебафф на 3 секунды
+			Получение врагами урона от искры может продлить этот дебафф на 3 секунды
 			'''
 	}
 
@@ -153,18 +153,18 @@ Items: {
 		DisplayName: Глубоководные поножи
 		Tooltip:
 			'''
-			Увеличивают шанс метательного критического удара на {0}%
-			Позволяют плавать
+			{$CommonItemTooltip.PercentThrowingCritChanceIncrease}
+			{$ItemTooltip.Flipper}
 			'''
 	}
 
 	ObsidianKnife: {
-		DisplayName: Обсидиановый ножик
+		DisplayName: Обсидиановый нож
 		Tooltip: ""
 	}
 
 	ShimmerKnife: {
-		DisplayName: Мерцающий ножик
+		DisplayName: Мерцающий нож
 		Tooltip: При попадании по врагу нож телепортируется за его спину и продолжает движение в обратном направлении
 	}
 
