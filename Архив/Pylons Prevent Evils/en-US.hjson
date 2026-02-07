@@ -1,0 +1,122 @@
+Mods: {
+	PylonShield: {
+		PylonMessage: {
+			PylonConfig: PylonShieldConfig
+			PylonProtection: Pylon Protection
+			Active: active
+			Inactive: inactive
+			Radius: Range
+			Max: Max
+			Min: Min
+			NoPowder: Not enough powder
+			EvilBlocks: Evil blocks, cleaning
+			Absorb: HP
+			NoStars: Not enough stars
+			PylonClientConfig: PylonShieldClientConfig
+			#"PylonShieldClientConfig"
+			PylonServerConfig: PylonShieldServerConfig
+			#"PylonShieldServerConfig"
+			PylonNoRange: Use [i:66] near this pylon to increase its range.
+			PurifyTip: Purifying
+			AbsorbTip: Protection
+			NoProtection: This pylon isn't active.
+			IncreaseWith: Increase using
+			NoProjectile: The nearby pylon is no longer protecting you from projectiles.
+			ConsumeTip: Consumes
+			NoTeleport: You need to be able to teleport to this pylon in order to use
+		}
+
+		Configuration: {
+			PylonSettingsHeader: Pylon Protection Settings [c/9ec9ff:(Server)]
+			PylonPreventEvils: "[i:784] Disable Crimson/Corruption spread near Pylons"
+			PylonPreventEvilsTooltip: Stops corruption and crimson biome blocks spreading within range of a pylon.
+			PylonPreventHallow: "[i:781] Disable Hallow spread near Pylons"
+			PylonPreventHallowTooltip: Stops hallowed biome blocks from spreading within range of a pylon.
+			PylonBlockSolution: "[i:779] Disable Clentaminator Solutions"
+			PylonBlockSolutionTooltip: Stops the use of corruption, crimson and hallowed solutions within range of a pylon.
+			PylonActiveClean: "[i:780] Disable Pylon Active Cleaning"
+			PylonActiveCleanTooltip: Stops the Pylon from actively cleaning existing evil blocks within range of a pylon.
+			PylonAuraHeader: Pylon Aura Client Settings [c/ff9eb4:(handle values with caution!)]
+			PylonAuraIndicator: "[i:4876] Disable Pylon Radius Aura Indicator"
+			PylonAuraIndicatorTooltip: Hides the visual indicator of the protection range of a pylon.
+			PylonAuraID: "[i:75] Pylon Aura Particle ID"
+			PylonAuraIDTooltip: The particle effect for the pylon aura.
+			# (WARNING: Changing this setting may crash the game!)\n
+			PylonAuraRotation: "[i:18] Pylon Aura Rotation Speed"
+			PylonAuraRotationTooltip: The rotation speed of the aura particles.
+			PylonAuraSize: "[i:18] Pylon Aura Particle Size"
+			PylonAuraSizeTooltip: The particle size for the pylon aura.
+			PylonAuraSpread: "[i:18] Pylon Aura Particle Spread"
+			PylonAuraSpreadTooltip: The distance between each particle for the pylon aura.
+			PylonAuraDuration: "[i:18] Pylon Aura Particle Duration"
+			PylonAuraDurationTooltip: The lifetime for the aura particles.
+			ExtrasHeader: Extras
+			PylonDebug: "[i:1344] Debug Mode"
+			PylonDebugTooltip: Turning this ON will enable extra data messages for pylons. Used for debugging purposes.
+			PylonBlockDisplayText: "[i:171] Disable Pylon Text Indicator"
+			PylonBlockDisplayTextTooltip: Hides the visual text indicator displayed on the pylon.
+			PylonActiveCleanDelay: "[i:18] Pylon Active Cleaning Interval"
+			PylonActiveCleanDelayTooltip: The minimum delay between each pylon active cleaning event.
+			PylonActiveCleanRandom: "[i:18] Pylon Active Cleaning Chance"
+			PylonActiveCleanRandomTooltip: 1/X chance of pylon active cleaning gets called.
+			PylonBlockProjectile: "[i:2177] Disable Pylon Projectile Protection"
+			PylonBlockProjectileTooltip: Stops the Pylon from reducing/destroying incoming projectiles.
+			PylonAuraIntensity: "[i:18] Pylon Aura Particle Velocity"
+			PylonAuraIntensityTooltip: The velocity for aura particles.
+			PylonServerAuth: "[i:1344] Require local authentication"
+			PylonServerAuthTooltip:
+				'''
+				Only players on the same network as the server can make changes to this config.
+				Anyone can still freely edit the client config, regardless of permissions.
+				'''
+			PylonPreventModded: "[i:782] Disable Modded/Custom spread near Pylons"
+			PylonPreventModdedTooltip:
+				'''
+				Stops the spread of modded biomes such as the
+				Astral Infection from Calamity when in range of a pylon.
+				Turning this off will disable Custom Tile Conversions.
+				'''
+			CustomBlockHeader:
+				'''
+				Custom Tile Conversions:
+				➤ Key: the (evil) block to be targeted by the pylon
+				➤ Value: the (purified) block after conversion from the pylon
+				'''
+			CustomBlock: Tiles/Walls to Convert:
+			CustomBlockTooltip:
+				'''
+				Selecting non-block/wall items will not work!
+				Only block-to-block/wall-to-wall pairs allowed, no duplicates.
+				A 'Key block' cannot be created if its 'Value block' already exists.
+				'''
+			InvalidConfig: does not match the local server address, Mod: PylonShield
+			PylonRequireActive: "[i:4951] Require Pylon Protection to be active"
+			PylonRequireActiveTooltip: Turning this off will always keep Pylon Protection active, regardless of whether players can teleport.
+			PylonAuraIndicatorTooltipKey: ""
+			PylonBlockDisplayTextTooltipKey: ""
+			PylonAuraIDTooltipKey: ""
+			PylonAuraRotationTooltipKey: ""
+			PylonAuraSizeTooltipKey: ""
+			PylonAuraSpreadTooltipKey: ""
+			PylonAuraDurationTooltipKey: ""
+			PylonAuraIntensityTooltipKey: ""
+			PylonRequireActiveTooltipKey: ""
+			PylonPreventEvilsTooltipKey: ""
+			PylonPreventModdedTooltipKey: ""
+			PylonPreventHallowTooltipKey: ""
+			PylonActiveCleanTooltipKey: ""
+			PylonBlockProjectileTooltipKey: ""
+			PylonBlockSolutionTooltipKey: ""
+			PylonActiveCleanDelayTooltipKey: ""
+			PylonActiveCleanRandomTooltipKey: ""
+			CustomBlockTooltipKey: ""
+			PylonDebugTooltipKey: ""
+			PylonServerAuthTooltipKey: ""
+		}
+
+		Configs: {
+			PylonShieldClientConfig.DisplayName: Pylon Shield Client Config
+			PylonShieldServerConfig.DisplayName: Pylon Shield Server Config
+		}
+	}
+}

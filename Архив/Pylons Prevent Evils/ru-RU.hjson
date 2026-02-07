@@ -1,0 +1,122 @@
+﻿Mods: {
+	PylonShield: {
+		PylonMessage: {
+			PylonConfig: Настройки Pylons Prevent Evils
+			PylonProtection: Защита пилона
+			Active: активан
+			Inactive: неактивна
+			Radius: Радиус
+			Max: Максимум
+			Min: Минимум
+			NoPowder: Недостаточно очищающего порошка
+			EvilBlocks: блоков биомов зла осталось, последний очищенный блок: 
+			Absorb: Прочность
+			NoStars: Недостаточно звёзд
+			PylonClientConfig: Клиентские настройки мода Pylons Prevent Evils
+			#"PylonShieldClientConfig"
+			PylonServerConfig: Серверные настройки мода Pylons Prevent Evils
+			#"PylonShieldServerConfig"
+			PylonNoRange: Используйте [i:66] на пилоне, чтобы увеличить радиус его защиты
+			PurifyTip: Очищение
+			AbsorbTip: Защита от заражения
+			NoProtection: Данный пилон неактивен
+			IncreaseWith: Улучшите с помощью:
+			NoProjectile: Ближайший к вам пилон больше не защищает от снарядов
+			ConsumeTip: Требуется:
+			NoTeleport: Вам нужно иметь возможность телепортироваться к этому пилону для использования его защитных способностей
+		}
+
+		Configuration: {
+			PylonSettingsHeader: Защита от биомов зла [c/9ec9ff:(Серверные настройки)]
+			PylonPreventEvils: "[i:784] Отключить распространение искажения и багрянца рядом с пилонами"
+			PylonPreventEvilsTooltip: Не даёт искажению и багрянцу заражать блоки в пределах радиуса пилона
+			PylonPreventHallow: "[i:781] Отключить распространение освящения рядом с пилонами"
+			PylonPreventHallowTooltip: Не даёт освящению заряжать блоки в пределах радиуса пилона
+			PylonBlockSolution: "[i:779] Отключить использование очистителя рядом с пилонами"
+			PylonBlockSolutionTooltip: Не даёт заражать биомами блоки при помощи очистителя в пределах радиуса пилона
+			PylonActiveClean: "[i:780] Отключить очистку в реальном времени"
+			PylonActiveCleanTooltip: Не даёт пилонам активно очищать блоки биомов зла в пределах их радиуса
+			PylonAuraHeader: Клиентские настройки [c/ff9eb4:(поосторожнее со значениями этих параметров!)]
+			PylonAuraIndicator: "[i:4876] Выключить индикатор радиуса действия пилонов"
+			PylonAuraIndicatorTooltip: Скрывает визуальную ауру из частиц вокруг пилона, отображающую его радиус действия
+			PylonAuraID: "[i:75] ID частиц визуальной ауры вокруг пилона"
+			PylonAuraIDTooltip: Из каких частиц будет состоять индикатор радиуса действия пилонов
+			# (ПРЕДУПРЕЖДЕНИЕ: Изменение этой настройки может повлечь за собой вылет игры!)\n
+			PylonAuraRotation: "[i:18] Скорость вращения частиц визуальной ауры вокруг пилонов"
+			PylonAuraRotationTooltip: С какой скоростью будут вращаться вокруг пилона частицы индикатора радиуса действия пилонов
+			PylonAuraSize: "[i:18] Размер частиц визуальной ауры вокруг пилонов"
+			PylonAuraSizeTooltip: Насколько большими будут частицы индикатора радиуса действия пилонов
+			PylonAuraSpread: "[i:18] Разброс частиц визуальной ауры вокруг пилонов"
+			PylonAuraSpreadTooltip: Как далеко друг от друга будут находиться частицы индикатора радиуса действия пилонов
+			PylonAuraDuration: "[i:18] Длительность визуальной ауры вокруг пилонов"
+			PylonAuraDurationTooltip: Как долго частицы индикатора радиуса действия пилонов будут находиться на экране
+			ExtrasHeader: Прочие настройки
+			PylonDebug: "[i:1344] Режим разработчика"
+			PylonDebugTooltip: Включает дополнительные сообщения в чате о внутренних процессах мода, используется разработчиками
+			PylonBlockDisplayText: "[i:171] Отключить всплывающий текст пилонов"
+			PylonBlockDisplayTextTooltip: Скрывает всплывающий текст, появляющийся при наведении курсором на пилон
+			PylonActiveCleanDelay: "[i:18] Перерывы между очисткой"
+			PylonActiveCleanDelayTooltip: Минимальная задержка между очищением блоков пилонами
+			PylonActiveCleanRandom: "[i:18] Шанс очистки"
+			PylonActiveCleanRandomTooltip: Шанс очистки блоков пилонами, равный 1/X, где X - значение этой настройки
+			PylonBlockProjectile: "[i:2177] Отключить защиту от снарядов"
+			PylonBlockProjectileTooltip: Не даёт пилонам уничтожать снаряды, летящие в их сторону.
+			PylonAuraIntensity: "[i:18] Скорость перемещения частиц визуальной ауры вокруг пилонов"
+			PylonAuraIntensityTooltip: С какой скоростью будут перемещаться частицы индикатора радиуса действия пилонов
+			PylonServerAuth: "[i:1344] Требовать локальную аутентификацию"
+			PylonServerAuthTooltip:
+				'''
+				Только игроки, подключённые к локальной сети сервера, смогут изменять настройки этого мода
+				Клиентские настройки всё ещё можно будет настраивать всем игрокам
+				'''
+			PylonPreventModded: "[i:782] Отключить распространение биомов из других модов рядом с пилонами"
+			PylonPreventModdedTooltip:
+				'''
+				Не даёт заразным биомам из других модов
+				(например астральной инфекции из Calamity) распространяться в пределах радиуса пилона
+				Отключение этой настройки также отключит Дополнительные превращения блоков
+				'''
+			CustomBlockHeader:
+				'''
+				Дополнительные превращения блоков:
+				➤ Key: Блок, который пилонам нужно будет очищать
+				➤ Value: Блок, который получится в результате этой очистки
+				'''
+			CustomBlock: Дополнительные превращения блоков и стен:
+			CustomBlockTooltip:
+				'''
+				Выбирайте только блоки или стены, выбор других предметов не будет работать
+				Превращать блоки можно только в блоки, стены, соответственно, только в стены
+				Если блок или стена уже находится в какой либо паре, их нельзя использовать в других парах
+				'''
+			InvalidConfig: не соответствует сети этого сервера, мод: PylonShield
+			PylonRequireActive: "[i:4951] Требовать необходимые условия для работы пилона"
+			PylonRequireActiveTooltip: Определяет, нужно ли игрокам иметь возможность телепортироваться к пилонам, чтобы они могли очищать блоки или нет
+			PylonAuraIndicatorTooltipKey: ""
+			PylonBlockDisplayTextTooltipKey: ""
+			PylonAuraIDTooltipKey: ""
+			PylonAuraRotationTooltipKey: ""
+			PylonAuraSizeTooltipKey: ""
+			PylonAuraSpreadTooltipKey: ""
+			PylonAuraDurationTooltipKey: ""
+			PylonAuraIntensityTooltipKey: ""
+			PylonRequireActiveTooltipKey: ""
+			PylonPreventEvilsTooltipKey: ""
+			PylonPreventModdedTooltipKey: ""
+			PylonPreventHallowTooltipKey: ""
+			PylonActiveCleanTooltipKey: ""
+			PylonBlockProjectileTooltipKey: ""
+			PylonBlockSolutionTooltipKey: ""
+			PylonActiveCleanDelayTooltipKey: ""
+			PylonActiveCleanRandomTooltipKey: ""
+			CustomBlockTooltipKey: ""
+			PylonDebugTooltipKey: ""
+			PylonServerAuthTooltipKey: ""
+		}
+
+		Configs: {
+			PylonShieldClientConfig.DisplayName: Клиентские настройки
+			PylonShieldServerConfig.DisplayName: Серверные настройки
+		}
+	}
+}
