@@ -4,7 +4,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Хрупкая конструкция, но вариантов не то чтобы много
+			Хрупкая, но луше, чем ничего
 			'''
 	}
 
@@ -45,29 +45,29 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Left click to shoot two slimy whips in the same directions
-			Right click to charge up shoot two slimy whips in opposite directions
+			Нажмите ЛКМ, чтобы ударить перед собой двумя хлыстами
+			Нажмите ПКМ, чтобы ударить хлыстами по обе стороны от вас
 			10 ед. урона от метки призывателя
 			'''
 	}
 
 	SulphuricScourge: {
-		DisplayName: Sulphuric Scourge
+		DisplayName: Серный бич
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Your minions will release toxic clouds into the air
+			Атаки ваших миньонов по отмеченным врагам выпускают радиоактивные облака
 			'''
 	}
 
 	DaedalusWhipItem: {
-		DisplayName: Daedalus Whip
+		DisplayName: Хлыст Дедала
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Summons floating snowballs on tag which split into ice shards
+			Атаки ваших миньонов по отмеченным врагам создают снежинки, распадающиеся на ледяные осколки
 			11 ед. урона от метки призывателя
-			'Imbued with the power of Cryogen'
+			'Пропитано силой Криогена'
 			'''
 	}
 
@@ -76,65 +76,65 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Your minions will release a volley of crystal shrapnel
-			-Community Designed Item-
-			Design by 'reldandle'
+			Атаки ваших миньонов по отмеченным врагам запускают кристалические осколки
+			-Предмет дизайна сообщества-
+			Разработан reldandle
 			'''
 	}
 
 	BrimstoneLash: {
-		DisplayName: Lash of Languish
+		DisplayName: Плеть скорби
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Inflicts Brimstone Flame
-			Your minions will release a brimstone explosion on a hit
-			'Languish in the flames of Gehenna'
+			Накладывает на врагов серный огонь
+			Атаки ваших миньонов по отмеченным врагам вызывают серный взрыв
+			'Тоска в пламени Геены'
 			'''
 	}
 
 	StellarWindItem: {
-		DisplayName: Stellar Wind
+		DisplayName: Звёздный ветер
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Inflicts Astral Infection.
-			Your minions will call down astral stars on a hit
+			Накладывает на врагов астральную инфекцию
+			Атаки ваших миньонов по отмеченным врагам вызывают падение звёзд
 			'''
 	}
 
 	SandstoneReigns: {
-		DisplayName: Forgotten Predator
+		DisplayName: Забытый хищник
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Your minions will summon a vicious sand shark to tag team
-			'Let them know what you have seen today'
+			Атаки ваших миньонов по отмеченным врагам призывают свирепых песчаных акул
+			'Расскажи им о том, что сегодня увидел'
 			'''
 	}
 
 	RightousDawn: {
-		DisplayName: Star Scrapper
+		DisplayName: Звёздный коллекционер
 		Tooltip:
 			'''
-			Something doesn't feel right....
-			Maybe you shouldn't use this...
+			Что-то здесь не так....
+			Возможно, вам не следует использовать это...
 			'''
 	}
 
 	ResonateStriker: {
-		DisplayName: Resonant Striker
-		Tooltip: Infuses you with pure resonance on each hit, increasing your movement and melee speed
+		DisplayName: Резонансный ударник
+		Tooltip: При ударе заставляет вас резонировать с миром, что увеличивает скорость ближнего боя и передвижения
 	}
 
 	RighteousDawnTwo: {
-		DisplayName: Righteous Dawn
+		DisplayName: Праведный рассвет
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Inflicts Holy Flames
-			If you are nearby your target, your minions will heal and imbue you with greater resistance
-			'A true king leads their troops into battle'
+			Наклыдывает на врагов святой огонь
+			Если вы находитесь рядом с отмеченным врагом, атаки ваших миньонов по ним будут даровать вам дополнительную защиту и исцелять вас
+			'Истинный король ведёт свои войска в бой'
 			'''
 	}
 
@@ -143,14 +143,14 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Releases a torment of ghastly claws
-			Your minions will call disembodied claws from beyond
+			Ударяет мучительными ужасными когтями
+			Атаки ваших миньонов по отмеченным врагам вызывают из загробного мира отрубленные когти
 			'''
 	}
 
 	SlimySling: {
-		DisplayName: Sticky Fingers
-		Tooltip: Increases whip range by 8%
+		DisplayName: Липкие пальчики
+		Tooltip: Увеличивают дальность хлыстов на 8%
 	}
 
 	GelatinousGlove: {
@@ -186,7 +186,7 @@ Items: {
 	}
 
 	Centauri: {
-		DisplayName: Proxima Centauri
+		DisplayName: Проксима Центавра
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
