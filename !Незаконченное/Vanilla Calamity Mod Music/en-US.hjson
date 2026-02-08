@@ -6,6 +6,11 @@ Mods: {
 				MusicTogglesHeader: Music Toggles
 				ConditionChangesHeader: Condition Changes
 
+				WorkshopRange: {
+					Label: "[i:WorkBench] Workshop Range"
+					Tooltip: Adjusts the range at which the Workshop themes play, from 10 to 50 blocks.
+				}
+
 				WorkshopThemes: {
 					Label: "[i:UnCalamityModMusic/WorkshopTier1MusicBox] Workshop Themes"
 					Tooltip:
@@ -24,30 +29,33 @@ Mods: {
 						'''
 				}
 
-				AbyssLayer3Alt: {
-					Label: "[i:UnCalamityModMusic/AbyssLayer3AltMusicBox] Abyss Layer 3 Alt"
-					Tooltip: Toggles an alternate theme for the 3rd layer of the Abyss.
-				}
-
-				PrioritizeInfernumMusic: {
-					Label: "[i:WallOfFleshGoatMountItem] Prioritize Infernum Music"
+				OverrideOtherworldlyMusic: {
+					Label: "[i:MusicBoxOWRain] Override Otherworldly Music"
 					Tooltip:
 						'''
-						Toggles whether Infernum music will take priority over VCMM music.
-						This option does nothing if the Infernum Mode Music mod is disabled.
-						This option does not affect Calamity bosses.
+						Toggles whether VCMM music will play over Otherworldly music.
+						This option only works if the Party Girl's music toggle is enabled.
 						'''
 				}
 
-				OverrideAnahitasLure: {
-					Label: "[i:UnCalamityModMusic/OceanDayMusicBox] Override Anahita's Lure"
-					Tooltip: Toggles whether the Anahita's Lure theme will override the Ocean themes.
+				OverrideAnahitasLureMusic: {
+					Label: "[i:UnCalamityModMusic/OceanDayMusicBox] Override Anahita's Lure Music"
+					Tooltip: Toggles whether Ocean music will play over Anahita's Lure music.
+				}
+
+				PrioritizeMusicFromOtherMods: {
+					Label: "[i:WorldGlobe] Prioritize Music From Other Mods"
+					Tooltip:
+						'''
+						Toggles whether other vanilla-replacing music should play over VCMM music.
+						Any further music customization should be found in other mod configs.
+						'''
 				}
 			}
 
 			OtherConfig: {
 				DisplayName: Other Config
-				AmbienceTogglesHeader: Ambience Toggles
+				AmbienceModeHeader: Ambience Mode
 				OtherChangesHeader: Other Changes
 
 				AmbienceFrequency: {
@@ -69,11 +77,6 @@ Mods: {
 					Tooltip: Toggles ambience in Spider Caves if ambience is enabled.
 				}
 
-				MusicBoxRecipes: {
-					Label: "[i:HeavyWorkBench] Music Box Recipes"
-					Tooltip: Toggles all music boxes recipes that require a Heavy Work Bench.
-				}
-
 				MusicBoxResprite: {
 					Label: "[i:MusicBox] Empty Music Box Resprite"
 					Tooltip: Toggles a resprite of the empty, unrecorded music box.
@@ -82,9 +85,9 @@ Mods: {
 		}
 
 		Items: {
-			AbyssLayer3AltMusicBox: {
-				DisplayName: Music Box (Abyss - Layer 3 Alt)
-				Tooltip: Plays 'R'lyehian Depths' by Heart Plus Up!
+			AetherMusicBox: {
+				DisplayName: Music Box (Aether)
+				Tooltip: Plays 'Met by the Stars' by TheForge129
 			}
 
 			BloodMoonDeathMusicBox: {
@@ -99,7 +102,7 @@ Mods: {
 
 			BrainofCthulhuMusicBox: {
 				DisplayName: Music Box (Brain of Cthulhu)
-				Tooltip: Plays 'Madness Incarnate' by Heart Plus Up! and SkippyZii
+				Tooltip: Plays 'Madness Incarnate' by SkippyZii and Heart Plus Up!
 			}
 
 			CavernsMusicBox: {
@@ -132,6 +135,11 @@ Mods: {
 				Tooltip: Plays 'Scorched to Dust' by Heart Plus Up!
 			}
 
+			DukeFishronMusicBox: {
+				DisplayName: Music Box (Duke Fishron)
+				Tooltip: Plays 'Apex Outlaw' by TYESKI
+			}
+
 			DungeonMusicBox: {
 				DisplayName: Music Box (Dungeon)
 				Tooltip: Plays 'Chambers of the Tyrant' by Heart Plus Up!
@@ -149,7 +157,11 @@ Mods: {
 
 			FalseEpilogueMusicBox: {
 				DisplayName: Music Box (False Epilogue)
-				Tooltip: Plays 'The Memory of a Cruel World' by Heart Plus Up!
+				Tooltip:
+					'''
+					Plays 'The Memory of a Cruel World' by Heart Plus Up!
+					This music box contains a placeholder song
+					'''
 			}
 
 			ForestDayAfternoonMusicBox: {
@@ -192,6 +204,11 @@ Mods: {
 				Tooltip: Plays 'The Resurrection of a Cruel World' by Salvati
 			}
 
+			JungleDayMusicBox: {
+				DisplayName: Music Box (Jungle)
+				Tooltip: Plays 'Nature's Reprieve' by Heart Plus Up!
+			}
+
 			KingSlimeMusicBox: {
 				DisplayName: Music Box (King Slime)
 				Tooltip: Plays 'Gelatinous Monarch' by Heart Plus Up!
@@ -231,19 +248,34 @@ Mods: {
 				Tooltip: Plays 'waves' by Heart Plus Up!
 			}
 
+			PumpkinMoonMusicBox: {
+				DisplayName: Music Box (Pumpkin Moon)
+				Tooltip: This music box is unfinished and does not work
+			}
+
+			RainDayMusicBox: {
+				DisplayName: Music Box (Rain Day)
+				Tooltip: Plays 'downpour' by Heart Plus Up!
+			}
+
 			RainLegacyMusicBox: {
 				DisplayName: Music Box (Rain - Legacy)
 				Tooltip: Plays 'Grey Sky' by Heart Plus Up!
 			}
 
-			RainMusicBox: {
-				DisplayName: Music Box (Rain)
-				Tooltip: Plays 'downpour' by Heart Plus Up!
+			RainNightMusicBox: {
+				DisplayName: Music Box (Rain Night)
+				Tooltip: Plays 'downtime' by Heart Plus Up!
+			}
+
+			SandstormMusicBox: {
+				DisplayName: Music Box (Sandstorm)
+				Tooltip: Plays 'terracotta' by TYESKI
 			}
 
 			SkeletronMusicBox: {
 				DisplayName: Music Box (Skeletron)
-				Tooltip: Plays 'Wrath From the Crypt' by Heart Plus Up!
+				Tooltip: Plays 'Wrath from the Crypt' by Heart Plus Up!
 			}
 
 			SlimeRainMusicBox: {
@@ -343,85 +375,83 @@ Mods: {
 		}
 
 		Menus: {
-			ResurrectionMenu: Resurrection Style
-			MemoryMenu: Memory Style
+			MemoryMenu: Calamity Style - Memory
+			ResurrectionMenu: Calamity Style - Resurrection
 		}
 
 		ModSupport: {
 			MusicDisplay: {
 				SongNames: {
-					AbyssLayer3Alt: R'lyehian Depths
-					Space: Starry Ascent
-					Underworld: Descent Into Hell's Fury
-					Meteorite: The Abomination's Omen
-					WorkshopTier6: Master's Forge
-					WorkshopTier5: False Gods and Ancient Elements
-					WorkshopTier4: Fruits of Your Labor
-					WorkshopTier3: Mythic Metals and Enchanted Fires
-					WorkshopTier2: The Sky and the Depths
-					WorkshopTier1: Metal, Wood, and Fire
-					TownNight: Moonlit Haven
-					TownNight_Noiseless: Moonlit Haven
-					TownDay: Haven in the Sunlight
-					Dungeon: Chambers of the Tyrant
-					GlowingMushroomFields: Psychedelic Depths
+					Aether: Met by the Stars
+					BloodMoon: Congealing Shadows
+					BloodMoonDeath: Sanguine Eclipse
+					BrainofCthulhu: Madness Incarnate
 					Corruption: Writhing Shadows
 					CorruptionUnderground: Between the Shadows
 					Crimson: Clotted Lands
 					CrimsonUnderground: Inside the Beast
-					Geodes: Amidst the Minerals
-					Tundra: Frozen Over
-					TundraUnderground: Inside the Glaciers
 					Caverns: Nearing the Inferno
-					Underground: Under the Earth
-					OceanNight: serene tides
-					OceanDay: shoreline
 					Desert: Scorched to Dust
-					ForestNight: Laze of the Sky
-					ForestDayEvening: A Legend's Strife (Grief)
-					ForestDayAfternoon: A Legend's Strife (Lament)
-					ForestDayMorning: A Legend's Strife (Epiphany)
-					ForestDayDawn: A Legend's Strife (Acceptance)
-					MoonLord: Virtuous Radiance
-					WallofFlesh: Fated Insurrection
-					Skeletron: Wrath From the Crypt
-					BrainofCthulhu: Madness Incarnate
+					DukeFishron: Apex Outlaw
+					Dungeon: Chambers of the Tyrant
 					EaterofWorlds: Menace of the Chasms
 					EyeofCthulhu: Bloodshot Barrage
+					FalseEpilogue: The Memory of a Cruel World
+					ForestDayAfternoon: A Legend's Strife (Lament)
+					ForestDayDawn: A Legend's Strife (Acceptance)
+					ForestDayEvening: A Legend's Strife (Grief)
+					ForestDayMorning: A Legend's Strife (Epiphany)
+					ForestNight: Laze of the Sky
+					Geodes: Amidst the Minerals
+					GlowingMushroomFields: Psychedelic Depths
+					HardmodeInterlude: The Resurrection of a Cruel World
+					JungleDay: Nature's Reprieve
 					KingSlime: Gelatinous Monarch
+					LanternFestival: Serenity
+					Meteorite: The Abomination's Omen
+					MoonLord: Virtuous Radiance
+					OceanDay: shoreline
+					OceanNight: serene tides
+					OceanRain: waves
+					RainDay: downpour
+					RainLegacy: Grey Sky
+					RainNight: downtime
+					Sandstorm: terracotta
+					Skeletron: Wrath from the Crypt
+					SlimeRain: Gelatin Showers
+					Space: Starry Ascent
 					TorchGod: Trial by Fire
 					TorchGodRevengeance: Trial by Fire
-					BloodMoon: Congealing Shadows
-					BloodMoonDeath: Sanguine Eclipse
-					SlimeRain: Gelatin Showers
-					OceanRain: waves
-					TownRain: Haven in Overcast
-					Rain: downpour
+					TownDay: Haven in the Sunlight
+					TownNight: Moonlit Haven
+					TownNight_Noiseless: Moonlit Haven
 					TownParty: Celebration Haven
-					LanternFestival: Serenity
-					HardmodeInterlude: The Resurrection of a Cruel World
-					FalseEpilogue: The Memory of a Cruel World
-					RainLegacy: Grey Sky
+					TownRain: Haven in Overcast
+					Tundra: Frozen Over
+					TundraUnderground: Inside the Glaciers
+					Underworld: Descent Into Hell's Fury
+					Underground: Under the Earth
+					WallofFlesh: Fated Insurrection
+					WorkshopTier1: Metal, Wood, and Fire
+					WorkshopTier2: The Sky and the Depths
+					WorkshopTier3: Mythic Metals and Enchanted Fires
+					WorkshopTier4: Fruits of Your Labor
+					WorkshopTier5: False Gods and Ancient Elements
+					WorkshopTier6: Master's Forge
 				}
 
 				Authors: {
+					Forge: by TheForge129
 					HeartPlusUp: by Heart Plus Up!
-					HeartPlusUpFeature1: by Heart Plus Up! and novaGnomes
-					HeartPlusUpFeature2: by Heart Plus Up! and SkippyZii
-					HeartPlusUpFeature3: by Heart Plus Up! and Universe
+					HeartPlusUpFeature: by Heart Plus Up! and novaGnomes
+					psykomatic: by psykomatic
 					Salvati: by Salvati
 					SkippyZii: by SkippyZii
+					SkippyZiiFeature: by SkippyZii and Heart Plus Up!
 					Thriplerex: by Thriplerex
-					Universe: by Universe
-					psykomatic: by psykomatic
+					TYESKI: by TYESKI
 				}
 			}
-		}
-
-		Recipes: {
-			EvilPowder: Evil Powder
-			SillyTiedBalloon: Silly Tied Balloon
-			NameMismatchError: There is an internal name mismatch between the items in this recipe and the items in another mod. The recipe for this item has been disabled.
 		}
 	}
 }
