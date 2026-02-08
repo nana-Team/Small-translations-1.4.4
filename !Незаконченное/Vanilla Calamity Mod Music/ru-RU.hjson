@@ -215,7 +215,7 @@ Mods: {
 			}
 
 			LanternFestivalMusicBox: {
-				DisplayName: Музыкальная шкатулка (Ночь фонарей)
+				DisplayName: Музыкальная шкатулка (Фестиваль фонарей)
 				Tooltip: Проигрывает «Serenity» за авторством Heart Plus Up!
 			}
 
@@ -314,7 +314,7 @@ Mods: {
 			}
 
 			TownRainMusicBox: {
-				DisplayName: Музыкальная шкатулка (Вечеринка во время дождя)
+				DisplayName: Музыкальная шкатулка (Дождь в городе)
 				Tooltip: Проигрывает «Haven in Overcast» за авторством Heart Plus Up!
 			}
 
