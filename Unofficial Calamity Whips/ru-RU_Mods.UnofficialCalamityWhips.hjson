@@ -154,34 +154,34 @@ Items: {
 	}
 
 	GelatinousGlove: {
-		DisplayName: Worn Grip
+		DisplayName: Изношенная перчатка
 		Tooltip:
 			'''
-			12% increased melee and whip speed
-			Enables auto swing for melee weapons and whips
-			Increases whip range by 15%
-			Whips slow nonboss enemies
-			Grants a burst of speed after hitting with a whip
+			Увеличивает скорость хлыстов и ближнего боя на 12%
+			Включает автоатаку для оружия ближнего боя и хлыстов
+			Увеличивает дальность хлыстов на 15%
+			Хлысты замедляют обычных врагов
+			Ускоряет на короткий промежуток времени после удара хлыстом
 			'''
 	}
 
 	CrystalLodestone: {
-		DisplayName: Forbidden Remains
-		Tooltip: Your whips release exploding boulders
+		DisplayName: Запретные останки
+		Tooltip: Хлысты периодически запускают взрывающиеся булыжники
 	}
 
 	FossilizedAmber: {
-		DisplayName: Fossilized Amber
-		Tooltip: Gain 8 defense after hitting with a whip
+		DisplayName: Окаменевший янтарь
+		Tooltip: Даёт 8 ед. защиты на короткое время после удара хлыстом
 	}
 
 	CrystalOfResilience: {
-		DisplayName: Crystalized Lodestone
+		DisplayName: Кристаллизировавшийся магнетит
 		Tooltip:
 			'''
-			Your whips release exploding boulders
-			Gain 8 defense after hitting with a whip
-			20% increased mining speed, 5% damage reduction, and +10 defense while underground or in the underworld
+			Хлысты периодически запускают взрывающиеся булыжники
+			Даёт 8 ед. защита на короткое время после удара хлыстом
+			Скорость добычи увеличена на 20%, сопротивление урону на 5%, а также вы получаете 10 ед. защиты при нахождении на уровне пещер и ниже
 			'''
 	}
 
@@ -190,36 +190,36 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Can and will hurl planets
+			Может запускать планеты, что и будет делать
 			50 ед. урона от метки призывателя
-			'Nearest, but far beyond...'
+			'Ближайшее, но столь далёкое...'
 			'''
 	}
 
 	FlinxFurMitten: {
-		DisplayName: Flinx Fur Mittens
+		DisplayName: Рукавицы из меха флинксов
 		Tooltip:
 			'''
-			12% increased melee and whip speed
-			Enables auto swing for melee weapons and whips
-			Whips slow enemies that are not immune to confusion
-			Increases whip range by 8%
+			Увеличивает скорость хлыстов и ближнего боя на 12%
+			Включает автоатаку для оружия ближнего боя и хлыстов
+			Хлысты замедляют врагов, не имеющих иммунитета к запутыванию
+			Увеличивает дальность хлыстов на 8%
 			'''
 	}
 
 	RingOfAlacrity: {
-		DisplayName: Ring of Alacrity
-		Tooltip: Gain 10% movement speed after hitting with a whip
+		DisplayName: Кольцо рвения
+		Tooltip: Увеличивает скорость на 10% после удара хлыстом
 	}
 
 	SuspiciousLeafExtract: {
-		DisplayName: Suspicious Leaf Extract
-		Tooltip: Spawns a circle of orbiting leaves after hitting with a whip
+		DisplayName: Подозрительный экстракт из листьев
+		Tooltip: После удара хлыстом по врагу вокруг вас начнут вращаться листья
 	}
 
 	BoulderItem: {
-		DisplayName: Stone Rubble
-		Tooltip: Your whips will shoot out boulders
+		DisplayName: Каменные обломки
+		Tooltip: Хлысты периодически запускают булыжники
 	}
 
 	BlossomsBlessingItem: {
@@ -227,8 +227,8 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Gives you The Blossom's Blessing on hit 
-			25% chance to shoot a spore
+			При попадании дайт бафф Благословление цветения
+			25% шанс запустить спору
 			30 ед. урона от метки призывателя
 			'''
 	}
@@ -238,18 +238,18 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Your minions summon coral fragments
+			Атаки ваших миньонов по отмеченным врагам призывают фрагменты кораллов
 			6 ед. урона от метки призывателя
 			'''
 	}
 
 	DevourersMaw: {
-		DisplayName: Devourer's Maw
+		DisplayName: Пасть Пожирателя
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Will infuse you with the Devourer's Hunger on hit, granting power the more you attack.
-			Inflicts Godslayer Inferno
+			При попадании даёт бафф Голод Пожирателя, усиляющийся с кажой атакой
+			При ударе накладывает Инферно Богоубийцы
 			-Community Designed Item-
 			Design by 'MothEggs, Paige, and KumaTerra'
 			'''
@@ -263,76 +263,76 @@ Items: {
 			The companionship between the Leviathan and Anahita inspires you and your minions
 			Your minions will occasionally drop orbs that will heal and grant a buff when picked up
 			18 ед. урона от метки призывателя
-			-Community Designed Item-
-			Design by 'CharlieTheFatCat'
+			-Предмет дизайна сообщества-
+			Разработан CharlieTheFatCat
 			'''
 	}
 
 	DivineHeadpat: {
-		DisplayName: Divine Headpat
-		Tooltip: Pat pat
+		DisplayName: Божественные поглаживания
+		Tooltip: Гладь-гладь
 	}
 
 	BuffOrb: {
-		DisplayName: Buff Orb
+		DisplayName: Сфера усиления
 		Tooltip: ""
 	}
 
 	HealingOrb: {
-		DisplayName: Healing Orb
+		DisplayName: Сфера исцеления
 		Tooltip: ""
 	}
 
 	TrueStarScraper: {
-		DisplayName: True Star Scraper
-		Tooltip: He was feeling a bit grumpy, but he's better now.
+		DisplayName: Истинный звёздный коллекционер
+		Tooltip: Он был слегка раздражён, но теперь ему полегчало
 	}
 }
 
 Buffs: {
 	PureResonance: {
-		DisplayName: Pure Resonance
-		Description: Increases melee and movement speed
+		DisplayName: Чистый резонанс
+		Description: Увеличивает скорость передвижения и ближнего боя
 	}
 
 	SkyBuff: {
-		DisplayName: Aerial
-		Description: Increases flight time
+		DisplayName: Невесомость
+		Description: Время полёта увеличено
 	}
 
 	StarlightTouch: {
-		DisplayName: Starlight Touch
-		Description: Increases defense by 20 and increases life regeneration
+		DisplayName: Прикосновение звёздного света
+		Description: Скорость регенерации здоровья увеличена, получено 20 ед. защиты
 	}
 
 	RighteousBlessing: {
-		DisplayName: Righteous Blessing
-		Description: Increases defense by 30 and increases life regeneration
+		DisplayName: Праведное благословение
+		Description: Скорость регенерации здоровья увеличена, получено 30 ед. защиты
 	}
 
 	StonesEndurance: {
-		DisplayName: Controlled Petrification
-		Description: 10% damage reduction
+		DisplayName: Контролируемое оцепенение
+		Description: Сопротивление урону увеличено на 10%
 	}
 
 	Alacrity: {
-		DisplayName: Alacrity
-		Description: 10% increased speed
+		DisplayName: Рвение
+		Description: Скорость передвижения увелична на 10%
 	}
 
 	BlossomsBlessingBuff: {
-		DisplayName: Blossom's Blessing
-		Description: Increases defense, life regen and movement speed
+		DisplayName: Благословление цветения
+		Description: Скорость передвижения, защита и регенерация жизни увеличены
 	}
 
 	DevourersHunger: {
-		DisplayName: Devourer's Hunger
-		Description: Gain increasing defense and summon damage the more you hit with Devourer's Maw
+		DisplayName: Голод Пожирателя
+		Description: Ваши защита и урон возрастают с каждым ударом Пасти Пожирателя
 	}
 
 	HealingMelody: {
-		DisplayName: Healing Melody
-		Description: Increases defense and life regeneration
+		DisplayName: Исцеляющая мелодия
+		Description: Защита и регенерация жизни увеличены
 	}
 
 	BitterCold: {
@@ -483,39 +483,39 @@ Projectiles: {
 
 Configs: {
 	UnofficialCalamityWhipsConfig: {
-		DisplayName: Unofficial Calamity Whips Config
-		Headers.Config: Config Header
+		DisplayName: Настройки Неофициальных хлыстов Каламити
+		Headers.Config: Заголовок настроек
 
 		WhipDamageModifier: {
-			Label: Whip Damage Modifer
-			Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+			Label: Множитель урона хлыстов
+			Tooltip: Меняет урон хлыстов по заданному значению. Используйте это, чтобы усилить или ослабить хлысты мода
 		}
 
 		AddArmorStats: {
-			Label: Add Whip Stats to Calamity Armors
-			Tooltip: Adds extra whip stats to some calamity armors while enabled, to make whips more viable
+			Label: Добавление характеристик хлыстов к броне Каламити
+			Tooltip: Если включено, у некоторой брони из Каламити появятся дополнительные бонусы для увеличения полезности хлыстов
 		}
 
 		AllowTagStacking: {
-			Label: Enable Tag Debuff Stacking
-			Tooltip: Allows whips in this mod to stack their tag effects. If set to false, all previous tag effects will be removed on applying a new one
+			Label: Переключение суммирования меток хлыстов
+			Tooltip: Позволяет суммироваться меткам из мода. Если выключено, каждая новая метка заменяет предыдущую
 		}
 
 		CatalystDisclaimer: {
-			Label: Catalyst Disclaimer
-			Tooltip: Disable this to remove the disclaimer advertising the Catalyst Mod
+			Label: Предупреждение о Каталисте
+			Tooltip: Выключите это, чтобы убрать рекламу Каталиста при заходе в мир
 		}
 	}
 }
 
 NPCs: {
-	ScraperOfStarsBody.DisplayName: Scraper of Stars
+	ScraperOfStarsBody.DisplayName: Коллекционер звёзд
 
 	ScraperOfStarsHead: {
-		DisplayName: Scraper Of Stars
-		BossFightName: Scraper of Stars
+		DisplayName: Коллекционер звёзд
+		BossFightName: Коллекционер звёзд
 	}
 
-	ScraperOfStarsTail.DisplayName: Scraper Of Stars
-	ScraperOfStarsDisjoint.DisplayName: Star Crescent
+	ScraperOfStarsTail.DisplayName: Коллекционер звёзд
+	ScraperOfStarsDisjoint.DisplayName: Звёздный полумесяц
 }
