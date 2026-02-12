@@ -23,9 +23,9 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			Атаки миньонов будут создавать самонаводящиеся грибы, исцеляющие вас
+			Атаки ваших миньонов по отмеченным врагам будут создавать самонаводящиеся грибы, исцеляющие вас
 			4 ед. урона от метки призывателя
-			'Несъедобен'
+			«Несъедобен»
 			'''
 	}
 
@@ -36,7 +36,7 @@ Items: {
 			{$CommonItemTooltip.Whips}
 			Атаки хлыстом восстанавливают время полёта
 			5 ед. урона от метки призывателя
-			'Лёгкий как пёрышко'
+			«Лёгкий как пёрышко»
 			'''
 	}
 
@@ -67,7 +67,7 @@ Items: {
 			{$CommonItemTooltip.Whips}
 			Атаки ваших миньонов по отмеченным врагам создают снежинки, распадающиеся на ледяные осколки
 			11 ед. урона от метки призывателя
-			'Пропитано силой Криогена'
+			«Пропитано силой Криогена»
 			'''
 	}
 
@@ -89,7 +89,7 @@ Items: {
 			{$CommonItemTooltip.Whips}
 			Накладывает на врагов серный огонь
 			Атаки ваших миньонов по отмеченным врагам вызывают серный взрыв
-			'Тоска в пламени Геены'
+			«Тоска в пламени Геены»
 			'''
 	}
 
@@ -109,7 +109,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.Whips}
 			Атаки ваших миньонов по отмеченным врагам призывают свирепых песчаных акул
-			'Расскажи им о том, что сегодня увидел'
+			«Расскажи им о том, что сегодня увидел»
 			'''
 	}
 
@@ -134,7 +134,7 @@ Items: {
 			{$CommonItemTooltip.Whips}
 			Наклыдывает на врагов святой огонь
 			Если вы находитесь рядом с отмеченным врагом, атаки ваших миньонов по ним будут даровать вам дополнительную защиту и исцелять вас
-			'Истинный король ведёт свои войска в бой'
+			«Истинный король ведёт свои войска в бой»
 			'''
 	}
 
@@ -172,7 +172,7 @@ Items: {
 
 	FossilizedAmber: {
 		DisplayName: Окаменевший янтарь
-		Tooltip: Даёт 8 ед. защиты на короткое время после удара хлыстом
+		Tooltip: Даёт 8 ед. защиты после удара хлыстом на короткое время
 	}
 
 	CrystalOfResilience: {
@@ -180,7 +180,7 @@ Items: {
 		Tooltip:
 			'''
 			Хлысты периодически запускают взрывающиеся булыжники
-			Даёт 8 ед. защита на короткое время после удара хлыстом
+			Даёт 8 ед. защиты после удара хлыстом на короткое время
 			Скорость добычи увеличена на 20%, сопротивление урону на 5%, а также вы получаете 10 ед. защиты при нахождении на уровне пещер и ниже
 			'''
 	}
@@ -192,7 +192,7 @@ Items: {
 			{$CommonItemTooltip.Whips}
 			Может запускать планеты, что и будет делать
 			50 ед. урона от метки призывателя
-			'Ближайшее, но столь далёкое...'
+			«Ближайшая, но столь далёкая...»
 			'''
 	}
 
@@ -227,7 +227,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			При попадании дайт бафф Благословление цветения
+			При попадании дайт бафф «Благословление цветения»
 			25% шанс запустить спору
 			30 ед. урона от метки призывателя
 			'''
@@ -248,20 +248,20 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			При попадании даёт бафф Голод Пожирателя, усиляющийся с кажой атакой
+			При попадании даёт бафф «Голод Пожирателя», усиляющийся с каждой атакой
 			При ударе накладывает Инферно Богоубийцы
-			-Community Designed Item-
-			Design by 'MothEggs, Paige, and KumaTerra'
+			-Предмет дизайна сообщества-
+			Разработан MothEggs, Paige и KumaTerra
 			'''
 	}
 
 	SirensSerenityItem: {
-		DisplayName: Siren's Serenity
+		DisplayName: Безмятежность сирены
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			The companionship between the Leviathan and Anahita inspires you and your minions
-			Your minions will occasionally drop orbs that will heal and grant a buff when picked up
+			Партнёрство Левиафин и Анахиты вдохновляет вас и ваших миньонов
+			Атаки ваших миньонов по отмеченным врагам периодически призывают сферы, которые при поднятии исцеляют и усиливают вас
 			18 ед. урона от метки призывателя
 			-Предмет дизайна сообщества-
 			Разработан CharlieTheFatCat
@@ -336,103 +336,103 @@ Buffs: {
 	}
 
 	BitterCold: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.BitterCold
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.BitterCold
+		DisplayName: Обморожение
+		Description: Выс трудом ощущаете ваши конечности
 	}
 
 	BrimstoneTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.BrimstoneTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.BrimstoneTagDebuff
+		DisplayName: Серное перенасыщение
+		Description: Переполняющая вас сера вот-вот взорвётся
 	}
 
 	DaedalusWhipDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.DaedalusWhipDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.DaedalusWhipDebuff
+		DisplayName: Сверхзаморозка
+		Description: Ваше тело столь холодно, что превращает влагу воздуха в снежинки
 	}
 
 	PrismTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.PrismTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.PrismTagDebuff
+		DisplayName: Быстрая кристаллизация
+		Description: Из вашего тела растут призмы
 	}
 
 	SandstoneTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SandstoneTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.SandstoneTagDebuff
+		DisplayName: Акулий аромат
+		Description: Вы — лучшая приманка для акул
 	}
 
 	SirensSerenityDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SirensSerenityDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.SirensSerenityDebuff
+		DisplayName: Песнь наяды
+		Description: Ваши слёзы превращаются в силу ваших врагов
 	}
 
 	StarScraperDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.StarScraperDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.StarScraperDebuff
+		DisplayName: Метка звёздной пыли
+		Description: Урон вражеских миньонов по вам увеличен
 	}
 
 	StellarWindDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.StellarWindDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.StellarWindDebuff
+		DisplayName: Метеоритный магнит
+		Description: Все падающие звёзды ваши!
 	}
 
 	SulphuricTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SulphuricTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.SulphuricTagDebuff
+		DisplayName: Радиосверхактивность
+		Description: В вашем теле так много радиации, что она конденсируется в облака
 	}
 
 	BlossomsBlessingDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.BlossomsBlessingDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.BlossomsBlessingDebuff
+		DisplayName: Метка цветущей природы
+		Description: Урон вражеских миньонов по вам увеличен
 	}
 
 	CentauriDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.CentauriDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.CentauriDebuff
+		DisplayName: Метка бесконечного космоса
+		Description: Урон вражеских миньонов по вам увеличен
 	}
 
 	DevourerTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.DevourerTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.DevourerTagDebuff
+		DisplayName: Метка Пожирателя
+		Description: Урон вражеских миньонов по вам увеличен
 	}
 
 	ResonateTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.ResonateTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.ResonateTagDebuff
+		DisplayName: Антирезонанс
+		Description: Урон вражеских миньонов по вам увеличен
 	}
 
 	RighteousTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.RighteousTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.RighteousTagDebuff
+		DisplayName: Раскаяние
+		Description: Атаки вражеских миньонов даруют вашему противнику силу
 	}
 
 	TormentTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.TormentTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.TormentTagDebuff
+		DisplayName: Воющие духи
+		Description: Вы стали целью для неупокоенных когтей
 	}
 
 	CongeledTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.CongeledTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.CongeledTagDebuff
+		DisplayName: Двойная слизневая метка
+		Description: Урон вражеских миньонов по вам увеличен
 	}
 
 	CoralCrusherDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.CoralCrusherDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.CoralCrusherDebuff
+		DisplayName: Кальцификация
+		Description: На вашем теле растут увесиистые кораллы
 	}
 
 	FungalFlailDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.FungalFlailDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.FungalFlailDebuff
+		DisplayName: Грибной паразит
+		Description: Теперь вы — пища для противника
 	}
 
 	SkySplitterDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SkySplitterDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.SkySplitterDebuff
+		DisplayName: Небесная метка
+		Description: Урон вражеских миньонов по вам увеличен
 	}
 
 	StaticTagDebuff: {
-		DisplayName: Mods.UnofficialCalamityWhips.BuffName.StaticTagDebuff
-		Description: Mods.UnofficialCalamityWhips.BuffDescription.StaticTagDebuff
+		DisplayName: Наэлектризованность
+		Description: В вас столько статческого электричетсва, что видны искры!
 	}
 }
 
