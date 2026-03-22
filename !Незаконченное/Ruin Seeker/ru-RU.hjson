@@ -1,0 +1,918 @@
+Mods: {
+	RuinSeeker: {
+
+		Biomes: {
+			GrottoCave: {
+				DisplayName: Грот
+				TownNPCDialogueName: Гроты
+			}
+
+			LimestoneCave: {
+				DisplayName: Известняковая пещера
+				TownNPCDialogueName: Известняковые пещеры
+			}
+
+			ThermalCave: {
+				DisplayName: Вулканическая пещера
+				TownNPCDialogueName: Вулканические пещеры
+			}
+		}
+
+		Tiles: {
+			Basalt_Tile.MapEntry: "{$Items.Basalt.DisplayName}"
+			Birch_Wood_Tile.MapEntry: "{$Items.Birch_Wood.DisplayName}"
+			Columnar_Basalt_Tile.MapEntry: "{$Items.Columnar_Basalt.DisplayName}"
+			Conglomerate_Stone_Tile.MapEntry: "{$Items.Conglomerate_Stone.DisplayName}"
+			Gabbro_Brick_Platform_Tile.MapEntry: ""
+			Gabbro_Brick_Tile.MapEntry: "{$Items.Gabbro_Brick.DisplayName}"
+			Gabbro_Slab_Tile.MapEntry: "{$Items.Gabbro_Slab.DisplayName}"
+			Gabbro_Tile.MapEntry: "{$Items.Gabbro.DisplayName}"
+			Gabbro_Amethyst_Tile.MapEntry: "{$Items.Gabbro_Amethyst.DisplayName}"
+			Gabbro_Diamond_Tile.MapEntry: "{$Items.Gabbro_Diamond.DisplayName}"
+			Gabbro_Emerald_Tile.MapEntry: "{$Items.Gabbro_Emerald.DisplayName}"
+			Gabbro_Moss_Tile.MapEntry: Габбровый мох
+			Gabbro_Ruby_Tile.MapEntry: "{$Items.Gabbro_Ruby.DisplayName}"
+			Gabbro_Sapphire_Tile.MapEntry: "{$Items.Gabbro_Sapphire.DisplayName}"
+			Gabbro_Topaz_Tile.MapEntry: "{$Items.Gabbro_Topaz.DisplayName}"
+			Limestone_Tile.MapEntry: "{$Items.Limestone.DisplayName}"
+			Log_Tile.MapEntry: "{$Items.Log.DisplayName}"
+			Meadow_Grass_Tile.MapEntry: Трава луга
+			Polished_Stone_Brick_Tile.MapEntry: "{$Items.Polished_Stone_Brick.DisplayName}"
+			Shellstone_Tile.MapEntry: "{$Items.Shellstone.DisplayName}"
+			Slate_Tile.MapEntry: "{$Items.Slate.DisplayName}"
+			Smooth_Limestone_Tile.MapEntry: "{$Items.Smooth_Limestone.DisplayName}"
+			Worn_Gray_Brick_Tile.MapEntry: "{$Items.Worn_Gray_Brick.DisplayName}"
+			Worn_Limestone_Tile.MapEntry: "{$Items.Worn_Limestone.DisplayName}"
+			Brown_Mushroom_Large_Tile.MapEntry: Коричневый гриб
+			Brown_Mushroom_Medium_Tile.MapEntry: Коричневый гриб
+			Brown_Mushroom_Small_Tile.MapEntry: Коричневый гриб
+			Bushes_Tile.MapEntry: "{$Items.Bushes.DisplayName}"
+			Cacti_Tile.MapEntry: "{$Items.Cacti.DisplayName}"
+			Compressed_Gold_Tile.MapEntry: "{$Items.Compressed_Gold.DisplayName}"
+			Corrupt_Bushes_Tile.MapEntry: "{$Items.Corrupt_Bush.DisplayName}"
+			Crimson_Bushes_Tile.MapEntry: "{$Items.Crimson_Bush.DisplayName}"
+			Birch_Bathtub_Tile.MapEntry: "{$Items.Birch_Bathtub.DisplayName}"
+			Birch_Bed_Tile.MapEntry: Кровать
+			Birch_Bookcase_Tile.MapEntry: Книжный шкаф
+			Birch_Candelabra_Tile.MapEntry: Подсвечник
+			Birch_Candle_Tile.MapEntry: Свеча
+			Birch_Chair_Tile.MapEntry: Стул
+			Birch_Chandelier_Tile.MapEntry: Люстра
+			Birch_Chest_Tile.MapEntry: "{$Items.Birch_Chest.DisplayName}"
+			Birch_Clock_Tile.MapEntry: Напольные часы
+			Birch_Door_Closed_Tile.MapEntry: Дверь
+			Birch_Door_Open_Tile.MapEntry: Дверь
+			Birch_Dresser_Tile.MapEntry: "{$Items.Birch_Dresser.DisplayName}"
+			Birch_Lamp_Tile.MapEntry: Напольная лампа
+			Birch_Lantern_Tile.MapEntry: Фонарь
+			Birch_Piano_Tile.MapEntry: Пианино
+			Birch_Sink_Tile.MapEntry: Раковина
+			Birch_Sofa_Tile.MapEntry: Диван
+			Birch_Table_Tile.MapEntry: Стол
+			Birch_Toilet_Tile.MapEntry: Унитаз
+			Birch_Workbench_Tile.MapEntry: Верстак
+			Gabbro_Rubble_Large_Tile.MapEntry: Обломки габбро
+			Gabbro_Rubble_Medium_Tile.MapEntry: Обломки габбро
+			Gabbro_Rubble_Small_Tile.MapEntry: Обломки габбро
+			Gabbro_Stalactite_Tile.MapEntry: Сталактит
+			Gabbro_Stalagmite_Tile.MapEntry: Сталагмит
+			Hallowed_Bushes_Tile.MapEntry: "{$Items.Hallowed_Bush.DisplayName}"
+			Lifesap_Bush_Tile.MapEntry: Куст живительной смолы
+			Limestone_Rubble_Large_Tile.MapEntry: Обломки известняка
+			Limestone_Rubble_Medium_Tile.MapEntry: Обломки известняка
+			Limestone_Rubble_Small_Tile.MapEntry: "{$Items.Limestone_Rubble_Small.DisplayName}"
+			Limestone_Stalactite_Tile.MapEntry: Сталактит
+			Limestone_Stalagmite_Tile.MapEntry: Сталагмит
+			Limestone_Stalagnate_Tile.MapEntry: Сталагнат
+			Meadow_Grass_Short_Tile.MapEntry: Трава луга
+			Meadow_Grass_Tall_Tile.MapEntry: Трава луга
+			Meadow_Vines_Tile.MapEntry: Лоза луга
+			Moonbell_Tile.MapEntry: "{$Items.Moonbell.DisplayName}"
+			Atlas_Poster_Tile.MapEntry: Картина
+			Celestial_Peak_Tile.MapEntry: Картина
+			Comfortable_Loneliness_Tile.MapEntry: Картина
+			Insulindian_Miracle_Tile.MapEntry: Картина
+			KimPortrait_Tile.MapEntry: Картина
+			Noon_Sunset_Tile.MapEntry: Картина
+			packpng_Tile.MapEntry: Картина
+			Pirate_Doing_Tile.MapEntry: Картина
+			Reflection_Tile.MapEntry: Картина
+			Resonant_Plains_Tile.MapEntry: Картина
+			Seafarers_Sunset_Tile.MapEntry: Картина
+			Seven_Hour_Sunset_Tile.MapEntry: Картина
+			Shadow_Boundaries_Tile.MapEntry: Картина
+			The_Coastal_Obscure_Tile.MapEntry: Картина
+			The_Lower_Path_Tile.MapEntry: Картина
+			Thoughts_On_The_Rainy_Season_Tile.MapEntry: Картина
+			Purple_Mushroom_Small_Tile.MapEntry: "{$Items.Purple_Mushroom_Small.DisplayName}"
+			Red_Mushroom_Small_Tile.MapEntry: "{$Items.Red_Mushroom_Small.DisplayName}"
+			Roots_Tile.MapEntry: "{$Items.Roots.DisplayName}"
+			Seeded_Lifesap_Bush_Tile.MapEntry: Куст живительной смолы
+			Small_Snow_Pile_Tile.MapEntry: Сугроб 
+			Snow_Bushes_Tile.MapEntry: "{$Items.Snow_Bushes.DisplayName}"
+			Snow_Grasses_Tile.MapEntry: "{$Items.Snow_Grasses.DisplayName}"
+			Snow_Pile_Tile.MapEntry: Сугроб
+			Sunspot_Tile.MapEntry: "{$Items.Sunspot.DisplayName}"
+			Wall_Mushroom_Tile.MapEntry: "{$Items.Wall_Mushroom.DisplayName}"
+			Birch_Tree.MapEntry: Берёза
+			Leafy_Plant_Tile.MapEntry: "{$Items.Leafy_Plant.DisplayName}"
+			Magmabulb_Tile.MapEntry: "{$Items.Magmabulb.DisplayName}"
+			Raindrop_Lotus_Tile.MapEntry: "{$Items.Raindrop_Lotus.DisplayName}"
+			Breezepetal_Tile.MapEntry: "{$Items.Breezepetal.DisplayName}"
+			Dune_Grasses_Tile.MapEntry: "{$Items.Dune_Grasses.DisplayName}"
+			Thermal_Vent_Tile.MapEntry: "{$Items.Thermal_Vent.DisplayName}"
+		}
+
+		Buffs: {
+			EntlingBuff: {
+				DisplayName: Энтняш
+				Description: Маленький энтняш освещает вам путь!
+			}
+
+			Pukeko_Buff: {
+				DisplayName: Птенец пукеко
+				Description: «Обойдёт весь мир своими семимильными шагами»
+			}
+		}
+
+		Items: {
+			Suspicious_Looking_Dice: {
+				DisplayName: Подозрительно выглядящая игральная кость
+				Tooltip: ""
+			}
+
+			Classic_Cape: {
+				DisplayName: Классический плащ
+				Tooltip: ""
+			}
+
+			Lifesap_Branch: {
+				DisplayName: Ветка живительной смолы
+				Tooltip: ""
+			}
+
+			Pukeko_Egg: {
+				DisplayName: Яйцо пукеко
+				Tooltip: ""
+			}
+
+			Basalt: {
+				DisplayName: Базальт
+				Tooltip: ""
+			}
+
+			Birch_Wood: {
+				DisplayName: Берёзовая древесина
+				Tooltip: ""
+			}
+
+			Columnar_Basalt: {
+				DisplayName: Столбчатый базальт
+				Tooltip: ""
+			}
+
+			Conglomerate_Stone: {
+				DisplayName: Конгломератный камень
+				Tooltip: ""
+			}
+
+			Gabbro: {
+				DisplayName: Габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Brick: {
+				DisplayName: Габбровый кирпич
+				Tooltip: ""
+			}
+
+			Gabbro_Brick_Platform: {
+				DisplayName: Платформа из габбрового кирпича
+				Tooltip: ""
+			}
+
+			Gabbro_Slab: {
+				DisplayName: Габбровая плитка
+				Tooltip: ""
+			}
+
+			Gabbro_Amethyst: {
+				DisplayName: Аметистовый габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Diamond: {
+				DisplayName: Алмазный габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Emerald: {
+				DisplayName: Изумрудовый габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Ruby: {
+				DisplayName: Рубиновый габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Sapphire: {
+				DisplayName: Сапфировый габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Topaz: {
+				DisplayName: Топазовый габбро
+				Tooltip: ""
+			}
+
+			Limestone: {
+				DisplayName: Известняк
+				Tooltip: ""
+			}
+
+			Log: {
+				DisplayName: Бревно
+				Tooltip: ""
+			}
+
+			Meadow_Grass_Seeds: {
+				DisplayName: Семена травы луга
+				Tooltip: ""
+			}
+
+			Polished_Stone_Brick: {
+				DisplayName: Отполированный каменный кирпич
+				Tooltip: ""
+			}
+
+			Shellstone: {
+				DisplayName: Груда окаменелых ракушек
+				Tooltip: ""
+			}
+
+			Slate: {
+				DisplayName: Сланец
+				Tooltip: ""
+			}
+
+			Smooth_Limestone: {
+				DisplayName: Гладкий известняк
+				Tooltip: ""
+			}
+
+			Worn_Gray_Brick: {
+				DisplayName: Истёртый серый кирпич
+				Tooltip: ""
+			}
+
+			Worn_Limestone: {
+				DisplayName: Истёртый известняк
+				Tooltip: ""
+			}
+
+			Birch_Catkin: {
+				DisplayName: Берёзовая почка
+				Tooltip: ""
+			}
+
+			Brown_Mushroom_Large: {
+				DisplayName: Большой коричневый гриб
+				Tooltip: ""
+			}
+
+			Brown_Mushroom_Medium: {
+				DisplayName: Средний коричневый гриб
+				Tooltip: ""
+			}
+
+			Brown_Mushroom_Small: {
+				DisplayName: Маленький коричневый гриб
+				Tooltip: ""
+			}
+
+			Bushes: {
+				DisplayName: Куст
+				Tooltip: ""
+			}
+
+			Cacti: {
+				DisplayName: Маленький кактус
+				Tooltip: Не ломается, находясь вдали от воды
+			}
+
+			Compressed_Gold: {
+				DisplayName: Золотая глыба
+				Tooltip: ""
+			}
+
+			Corrupt_Bush: {
+				DisplayName: Искажённый куст
+				Tooltip: ""
+			}
+
+			Crimson_Bush: {
+				DisplayName: Багряный куст
+				Tooltip: ""
+			}
+
+			Birch_Bathtub: {
+				DisplayName: Берёзовая ванна
+				Tooltip: ""
+			}
+
+			Birch_Bed: {
+				DisplayName: Берёзовая кровать
+				Tooltip: ""
+			}
+
+			Birch_Bookcase: {
+				DisplayName: Берёзовый книжный шкаф
+				Tooltip: ""
+			}
+
+			Birch_Candelabra: {
+				DisplayName: Берёзовый подсвечник
+				Tooltip: ""
+			}
+
+			Birch_Candle: {
+				DisplayName: Берёзовая свеча
+				Tooltip: ""
+			}
+
+			Birch_Chair: {
+				DisplayName: Берёзовый стул
+				Tooltip: ""
+			}
+
+			Birch_Chandelier: {
+				DisplayName: Берёзовая люстра
+				Tooltip: ""
+			}
+
+			Birch_Chest: {
+				DisplayName: Берёзовый сундук
+				Tooltip: ""
+			}
+
+			Birch_Clock: {
+				DisplayName: Берёзовые напольные часы
+				Tooltip: ""
+			}
+
+			Birch_Door: {
+				DisplayName: Берёзовая дверь
+				Tooltip: ""
+			}
+
+			Birch_Dresser: {
+				DisplayName: Берёзовый комод
+				Tooltip: ""
+			}
+
+			Birch_Lamp: {
+				DisplayName: Берёзовая напольная лампа
+				Tooltip: ""
+			}
+
+			Birch_Lantern: {
+				DisplayName: Берёзовый фонарь
+				Tooltip: ""
+			}
+
+			Birch_Piano: {
+				DisplayName: Берёзовое пианино
+				Tooltip: ""
+			}
+
+			Birch_Sink: {
+				DisplayName: Берёзовая раковина
+				Tooltip: ""
+			}
+
+			Birch_Sofa: {
+				DisplayName: Берёзовый диван
+				Tooltip: ""
+			}
+
+			Birch_Table: {
+				DisplayName: Берёзовый стол
+				Tooltip: ""
+			}
+
+			Birch_Toilet: {
+				DisplayName: Берёзовый унитаз
+				Tooltip: ""
+			}
+
+			Birch_Workbench: {
+				DisplayName: Берёзовый верстак
+				Tooltip: ""
+			}
+
+			Gabbro_Rubble_Large: {
+				DisplayName: Большие обломки габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Rubble_Medium: {
+				DisplayName: Средние обломки габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Rubble_Small: {
+				DisplayName: Маленькие обломки габбро
+				Tooltip: ""
+			}
+
+			Gabbro_Stalactite: {
+				DisplayName: Габбровый сталактит
+				Tooltip: ""
+			}
+
+			Gabbro_Stalagmite: {
+				DisplayName: Габбровый сталагмит
+				Tooltip: ""
+			}
+
+			Hallowed_Bush: {
+				DisplayName: Освящённый куст
+				Tooltip: ""
+			}
+
+			Lifesap_Seedling: {
+				DisplayName: Саженец живительной смолы
+				Tooltip: ""
+			}
+
+			Limestone_Rubble_Large: {
+				DisplayName: Большие обломки известняка
+				Tooltip: ""
+			}
+
+			Limestone_Rubble_Medium: {
+				DisplayName: Средние обломки известняка
+				Tooltip: ""
+			}
+
+			Limestone_Rubble_Small: {
+				DisplayName: Маленькие обломки известняка
+				Tooltip: ""
+			}
+
+			Limestone_Stalactite: {
+				DisplayName: Известняковый сталактит
+				Tooltip: ""
+			}
+
+			Limestone_Stalagmite: {
+				DisplayName: Известняковый сталагмит
+				Tooltip: ""
+			}
+
+			Limestone_Stalagnate: {
+				DisplayName: Известняковый сталагнат
+				Tooltip: ""
+			}
+
+			Moonbell: {
+				DisplayName: Полнолунный колокольчик
+				Tooltip: Создаёт биом грота вокруг себя	
+			}
+
+			Atlas_Poster: {
+				DisplayName: Картина «16/16/16»
+				Tooltip: ""
+			}
+
+			Celestial_Peak: {
+				DisplayName: Картина «На вершине горы Селеста»
+				Tooltip: ""
+			}
+
+			Comfortable_Loneliness: {
+				DisplayName: Картина «Comfortable Loneliness»
+				Tooltip: ""
+			}
+
+			Insulindian_Miracle: {
+				DisplayName: Картина «Островалийское чудо»
+				Tooltip: ""
+			}
+
+			KimPortrait: {
+				DisplayName: Картина «Sunrise, Parabellum»
+				Tooltip: ""
+			}
+
+			Noon_Sunset: {
+				DisplayName: Картина «Полуденный закат»
+				Tooltip: ""
+			}
+
+			packpng: {
+				DisplayName: Картина «pack.png»
+				Tooltip: ""
+			}
+
+			Pirate_Doing: {
+				DisplayName: Картина «Пиратственность»
+				Tooltip: ""
+			}
+
+			Reflection: {
+				DisplayName: Картина «Взгляд в своё отражение»
+				Tooltip: ""
+			}
+
+			Resonant_Plains: {
+				DisplayName: Картина «Resonant Plains»
+				Tooltip: ""
+			}
+
+			Seafarers_Sunset: {
+				DisplayName: Картина «Морячий закат»
+				Tooltip: ""
+			}
+
+			Seven_Hour_Sunset: {
+				DisplayName: Картина «Seven Hour Sunset»
+				Tooltip: ""
+			}
+
+			Shadow_Boundaries: {
+				DisplayName: Картина «Shadow Boundaries»
+				Tooltip: ""
+			}
+
+			The_Coastal_Obscure: {
+				DisplayName: Картина «The Coastal Obscure»
+				Tooltip: ""
+			}
+
+			The_Lower_Path: {
+				DisplayName: Картина «The Lower Path»
+				Tooltip: ""
+			}
+
+			Thoughts_On_The_Rainy_Season: {
+				DisplayName: Картина «Thoughts On The Rain Season»
+				Tooltip: ""
+			}
+
+			Purple_Mushroom_Small: {
+				DisplayName: Фиолетовый гриб
+				Tooltip: ""
+			}
+
+			Red_Mushroom_Small: {
+				DisplayName: Красный гриб
+				Tooltip: ""
+			}
+
+			Roots: {
+				DisplayName: Корни
+				Tooltip: ""
+			}
+
+			Small_Snow_Pile: {
+				DisplayName: Маленький сугроб
+				Tooltip: ""
+			}
+
+			Snow_Bushes: {
+				DisplayName: Заснеженный куст
+				Tooltip: ""
+			}
+
+			Snow_Grasses: {
+				DisplayName: Заснеженная трава
+				Tooltip: ""
+			}
+
+			Snow_Pile: {
+				DisplayName: Сугроб
+				Tooltip: ""
+			}
+
+			Sunspot: {
+				DisplayName: Солнечное пятнышко
+				Tooltip: Создаёт биом грота вокруг себя
+			}
+
+			Tile_Protector: {
+				DisplayName: Протектор для тайлов
+				Tooltip: ""
+			}
+
+			Wall_Mushroom: {
+				DisplayName: Настенный гриб
+				Tooltip: ""
+			}
+
+			Basalt_Wall: {
+				DisplayName: Базальтовая стена
+				Tooltip: ""
+			}
+
+			Basalt_Wall_Unsafe: {
+				DisplayName: Опасная базальтовая стена
+				Tooltip: ""
+			}
+
+			Birch_Wood_Wall: {
+				DisplayName: Берёзовая стена
+				Tooltip: ""
+			}
+
+			Columnar_Basalt_Wall: {
+				DisplayName: Столбчатая базальтовая стена
+				Tooltip: ""
+			}
+
+			Columnar_Basalt_Wall_Unsafe: {
+				DisplayName: Опасная столбчатая базальтовая стена
+				Tooltip: ""
+			}
+
+			Gabbro_Brick_Wall: {
+				DisplayName: Габбровая кирпичная стена
+				Tooltip: ""
+			}
+
+			Gabbro_Slab_Wall: {
+				DisplayName: Стена из габбровой плитки
+				Tooltip: ""
+			}
+
+			Gabbro_Wall: {
+				DisplayName: Габбровая стена
+				Tooltip: ""
+			}
+
+			Gabbro_Wall_Unsafe: {
+				DisplayName: Опасная габбровая стена
+				Tooltip: ""
+			}
+
+			Generation_Wall: {
+				DisplayName: Стена для генерации
+				Tooltip: ""
+			}
+
+			Horizontal_Log_Wall: {
+				DisplayName: Стена свалившегося бревна
+				Tooltip: ""
+			}
+
+			Limestone_Wall: {
+				DisplayName: Известняковая стена
+				Tooltip: ""
+			}
+
+			Limestone_Wall_Unsafe: {
+				DisplayName: Опасная известняковая стена
+				Tooltip: ""
+			}
+
+			Polished_Stone_Brick_Wall: {
+				DisplayName: Отполированная каменная кирпичная стена
+				Tooltip: ""
+			}
+
+			Slate_Wall: {
+				DisplayName: Сланцевая стена
+				Tooltip: ""
+			}
+
+			Slate_Wall_Unsafe: {
+				DisplayName: Опасная сланцевая стена
+				Tooltip: ""
+			}
+
+			Smooth_Limestone_Wall: {
+				DisplayName: Гладкая известняковая стена
+				Tooltip: ""
+			}
+
+			Smooth_Limestone_Wall_Unsafe: {
+				DisplayName: Опасная гладкая известняковая стена
+				Tooltip: ""
+			}
+
+			Vertical_Log_Wall: {
+				DisplayName: Стена стоящего бревна
+				Tooltip: ""
+			}
+
+			Worn_Gray_Brick_Wall: {
+				DisplayName: Истёртая серая кирпичная стена
+				Tooltip: ""
+			}
+
+			Rock_and_Roll: {
+				DisplayName: Камень преткновения
+				Tooltip: ""
+			}
+
+			Black_Powder_Pouch: {
+				DisplayName: Мешочек с чёрным порохом
+				Tooltip:
+					'''
+					Попадания по врагам с небольшим шансом могут вызвать взрыв, наносящий дополнительный урон по области
+					Взрыв не может нанести более 45 ед. урона
+					'''
+			}
+
+			Leafy_Plant: {
+				DisplayName: Густая растительность
+				Tooltip: ""
+			}
+
+			Wood_Lattice: {
+				DisplayName: Деревянная решётка
+				Tooltip: ""
+			}
+
+			Magmabulb: {
+				DisplayName: Сгусток магмы
+				Tooltip: ""
+			}
+
+			Bound_Vertical_Log_Wall: {
+				DisplayName: Стена из связанных брёвен
+				Tooltip: ""
+			}
+
+			Bound_Vertical_Log_Wall_Unsafe: {
+				DisplayName: Опасная стена из связанных брёвен
+				Tooltip: ""
+			}
+
+			Horizontal_Log_Wall_Unsafe: {
+				DisplayName: Опасная стена свалившегося бревна
+				Tooltip: ""
+			}
+
+			Vertical_Log_Wall_Unsafe: {
+				DisplayName: Опасная стена стоящего бревна
+				Tooltip: ""
+			}
+
+			Wood_Lattice_Unsafe: {
+				DisplayName: Опасная деревянная решётка
+				Tooltip: ""
+			}
+
+			Log_Fence: {
+				DisplayName: Забор из брёвен
+				Tooltip: ""
+			}
+
+			Log_Fence_Unsafe: {
+				DisplayName: Опасный забор из брёвен
+				Tooltip: ""
+			}
+
+			Decorated_Vertical_Log_Wall: {
+				DisplayName: Украшенная стена стоящего бревна
+				Tooltip: ""
+			}
+
+			Decorated_Vertical_Log_Wall_Unsafe: {
+				DisplayName: Опасная украшенная стена стоящего бревна
+				Tooltip: ""
+			}
+
+			Raindrop_Lotus: {
+				DisplayName: Лотос-каплецвет
+				Tooltip: ""
+			}
+
+			Breezepetal: {
+				DisplayName: Зефирный лепесток
+				Tooltip: ""
+			}
+
+			Dune_Grasses: {
+				DisplayName: Трава дюны
+				Tooltip: ""
+			}
+
+			Thermal_Vent: {
+				DisplayName: Термальный источник
+				Tooltip: ""
+			}
+
+			LimestoneWaterStyleIcon_Blue: {
+				DisplayName: Иконка стиля известняковой воды: ярко-синяя
+				Tooltip: ""
+			}
+
+			LimestoneWaterStyleIcon_ClearBlue: {
+				DisplayName: Иконка стиля известняковой воды: прозрачно-синяя
+				Tooltip: ""
+			}
+
+			LimestoneWaterStyleIcon_PaleBlue: {
+				DisplayName: Иконка стиля известняковой воды: бледно-синяя
+				Tooltip: ""
+			}
+		}
+
+		NPCs.Entling.DisplayName: Энтняш
+
+		Projectiles: {
+			Entling_Projectile.DisplayName: Энтняш
+			Pukeko_Projectile.DisplayName: Пукеко
+			Rock_and_Roll_Projectile.DisplayName: Камень преткновения
+			Rock_Projectile.DisplayName: Камешек
+			Black_Powder_Explosion.DisplayName: Взрыв чёрного пороха
+		}
+
+		Configs: {
+			RuinSeekerConfigClient: {
+				DisplayName: Клиентская конфигурация
+
+				Headers: {
+					Generation: "[i:4765] Генерация мира"
+					Visuals: "[i:5354] Визуал"
+					ModCompatibility: "[i:1344] Совместимость с другими модами"
+				}
+
+				genArena: {
+					Label: "[i:3905] Арена для битв с боссами"
+					Tooltip: Включает генерацию арены для битв с боссами примерно в центре мира на поверхности
+				}
+
+				genBadlands: {
+					Label: "[i:3271] Пустоши"
+					Tooltip: Включает генерацию микробиома пустошей в пустыне
+				}
+
+				genDesertTree: {
+					Label: "[i:3272] Живое дерево в пустыне"
+					Tooltip: Включает генерацию выцветшего живого дерева посреди пустыни
+				}
+
+				genJungleFossilStone: {
+					Label: "[i:RuinSeeker/Shellstone] Окаменелости в джунглях"
+					Tooltip: Включает генерацию покрашенных в серый цвет блоков ракушек и живого красного дерева внутри скоплений камня в джунглях
+				}
+
+				genThinIceSpikes: {
+					Label: "[i:4391] Ледяные шипы"
+					Tooltip: Включает генерацию маленьких тонких шипов из льда в снежном биоме
+				}
+
+				genOceanSeaweed: {
+					Label: "[i:1112] Водоросли"
+					Tooltip:
+						'''
+						Включает генерацию водорослей в океане
+						Рекомендуем отключить эту настройку, если у вас установлены моды по типу Spirit, добавляющие декорации для океана 
+						Однако если вы решите не отключать эту настройку, никаких проблем с такими модами всё равно возникнуть не должно
+						'''
+				}
+
+				genMinecartSupportsOnWalls: {
+					Label: "[i:RuinSeeker/Decorated_Vertical_Log_Wall] Генерация опор для рельс вместо стен"
+					Tooltip: Позволяет опорам для рельс вагонеток заменять собой любые другие стены во время генерации мира
+				}
+
+				doMushroomSpores: {
+					Label: "[i:RuinSeeker/Brown_Mushroom_Small] Споровые облака грибов"
+					Tooltip: Включает визуальный эффект споровых облаков, исходящих от большинства грибов
+				}
+
+				deleteSLRLeafWalls: {
+					Label: "[i:745] Удалять лиственные стены из мода Starlight River"
+					Tooltip:
+						'''
+						Лиственные стены из этого мода зачастую генерируются там, где не нужно, например поверх различных структур в лесу 
+						Эта настройка отключает их генерацию, сохраняя оригинальный внешний вид структур из этого мода
+						'''
+				}
+
+				doMagmaLayerGlow: {
+					Label: "[i:1322] Освещение от заднего фона вулканических пещер"
+					Tooltip: Позволяет заднему фону нового минибиома вулканических пещер излучать еле заметный тёплый свет
+				}
+
+				limestoneWaterColor: {
+					Label: "[i:206] Цвет воды в известняковых пещерах"
+					Tooltip:
+						'''
+						[i:RuinSeeker/LimestoneWaterStyleIcon_ClearBlue] Прозрачно-синий
+						[i:RuinSeeker/LimestoneWaterStyleIcon_Blue] Ярко-синий
+						[i:RuinSeeker/LimestoneWaterStyleIcon_PaleBlue] Бледно-синий
+						'''
+				}
+			}
+		}
+
+		Conditions.IsHardmode: В хардмоде
+	}
+}
+

@@ -30,9 +30,21 @@ Configs: {
 
 	Placements: {
 		Tooltip: ""
-		Top.Label: Top
-		Bottom.Label: Bottom
-		Left.Label: Left
+
+		Top: {
+			Label: Top
+			Tooltip: ""
+		}
+
+		Bottom: {
+			Label: Bottom
+			Tooltip: ""
+		}
+
+		Left: {
+			Label: Left
+			Tooltip: ""
+		}
 	}
 }
 

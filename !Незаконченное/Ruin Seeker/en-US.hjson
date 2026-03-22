@@ -1,0 +1,918 @@
+Mods: {
+	RuinSeeker: {
+
+		Biomes: {
+			GrottoCave: {
+				DisplayName: Grotto Cave
+				TownNPCDialogueName: the Grotto Caves
+			}
+
+			LimestoneCave: {
+				DisplayName: Limestone Cave
+				TownNPCDialogueName: the Limestone Caves
+			}
+
+			ThermalCave: {
+				DisplayName: Thermal Cave
+				TownNPCDialogueName: the Thermal Caves
+			}
+		}
+
+		Tiles: {
+			Basalt_Tile.MapEntry: Basalt
+			Birch_Wood_Tile.MapEntry: Birch Wood
+			Columnar_Basalt_Tile.MapEntry: Columnar Basalt
+			Conglomerate_Stone_Tile.MapEntry: Conglomerate Stone
+			Gabbro_Brick_Platform_Tile.MapEntry: Gabbro Brick Platform
+			Gabbro_Brick_Tile.MapEntry: Gabbro Brick
+			Gabbro_Slab_Tile.MapEntry: Gabbro Slab
+			Gabbro_Tile.MapEntry: Gabbro
+			Gabbro_Amethyst_Tile.MapEntry: Gabbro Amethyst
+			Gabbro_Diamond_Tile.MapEntry: Gabbro Diamond
+			Gabbro_Emerald_Tile.MapEntry: Gabbro Emerald
+			Gabbro_Moss_Tile.MapEntry: Gabbro Moss
+			Gabbro_Ruby_Tile.MapEntry: Gabbro Ruby
+			Gabbro_Sapphire_Tile.MapEntry: Gabbro Sapphire
+			Gabbro_Topaz_Tile.MapEntry: Gabbro Topaz
+			Limestone_Tile.MapEntry: Limestone
+			Log_Tile.MapEntry: Log
+			Meadow_Grass_Tile.MapEntry: Meadow Grass
+			Polished_Stone_Brick_Tile.MapEntry: Polished Stone Brick
+			Shellstone_Tile.MapEntry: Shellstone
+			Slate_Tile.MapEntry: Slate
+			Smooth_Limestone_Tile.MapEntry: Smooth Limestone
+			Worn_Gray_Brick_Tile.MapEntry: Worn Gray Brick
+			Worn_Limestone_Tile.MapEntry: Worn Limestone
+			Brown_Mushroom_Large_Tile.MapEntry: Brown Mushroom Large
+			Brown_Mushroom_Medium_Tile.MapEntry: Brown Mushroom Medium
+			Brown_Mushroom_Small_Tile.MapEntry: Brown Mushroom Small
+			Bushes_Tile.MapEntry: Bushe
+			Cacti_Tile.MapEntry: Cacti
+			Compressed_Gold_Tile.MapEntry: Compressed Gold
+			Corrupt_Bushes_Tile.MapEntry: Corrupt Bushe
+			Crimson_Bushes_Tile.MapEntry: Crimson Bushe
+			Birch_Bathtub_Tile.MapEntry: Birch Bathtub
+			Birch_Bed_Tile.MapEntry: Birch Bed
+			Birch_Bookcase_Tile.MapEntry: Birch Bookcase
+			Birch_Candelabra_Tile.MapEntry: Birch Candelabra
+			Birch_Candle_Tile.MapEntry: Birch Candle
+			Birch_Chair_Tile.MapEntry: Birch Chair
+			Birch_Chandelier_Tile.MapEntry: Birch Chandelier
+			Birch_Chest_Tile.MapEntry: Birch Chest
+			Birch_Clock_Tile.MapEntry: Birch Clock
+			Birch_Door_Closed_Tile.MapEntry: Birch Door Closed
+			Birch_Door_Open_Tile.MapEntry: Birch Door Open
+			Birch_Dresser_Tile.MapEntry: Birch Dresser
+			Birch_Lamp_Tile.MapEntry: Birch Lamp
+			Birch_Lantern_Tile.MapEntry: Birch Lantern
+			Birch_Piano_Tile.MapEntry: Birch Piano
+			Birch_Sink_Tile.MapEntry: Birch Sink
+			Birch_Sofa_Tile.MapEntry: Birch Sofa
+			Birch_Table_Tile.MapEntry: Birch Table
+			Birch_Toilet_Tile.MapEntry: Birch Toilet
+			Birch_Workbench_Tile.MapEntry: Birch Workbench
+			Gabbro_Rubble_Large_Tile.MapEntry: Large Gabbro Rubble
+			Gabbro_Rubble_Medium_Tile.MapEntry: Medium Gabbro Rubble
+			Gabbro_Rubble_Small_Tile.MapEntry: Small Gabbro Rubble
+			Gabbro_Stalactite_Tile.MapEntry: Gabbro Stalactite
+			Gabbro_Stalagmite_Tile.MapEntry: Gabbro Stalagmite
+			Hallowed_Bushes_Tile.MapEntry: Hallowed Bushe
+			Lifesap_Bush_Tile.MapEntry: Lifesap Bush
+			Limestone_Rubble_Large_Tile.MapEntry: Large Limestone Rubble
+			Limestone_Rubble_Medium_Tile.MapEntry: Medium Limestone Rubble
+			Limestone_Rubble_Small_Tile.MapEntry: Small Limestone Rubble
+			Limestone_Stalactite_Tile.MapEntry: Limestone Stalactite
+			Limestone_Stalagmite_Tile.MapEntry: Limestone Stalagmite
+			Limestone_Stalagnate_Tile.MapEntry: Limestone Stalagnate
+			Meadow_Grass_Short_Tile.MapEntry: Meadow Grass
+			Meadow_Grass_Tall_Tile.MapEntry: Meadow Grass
+			Meadow_Vines_Tile.MapEntry: Meadow Vines
+			Moonbell_Tile.MapEntry: Moonbell
+			Atlas_Poster_Tile.MapEntry: 16/16/16
+			Celestial_Peak_Tile.MapEntry: Celestial Peak
+			Comfortable_Loneliness_Tile.MapEntry: Comfortable Loneliness
+			Insulindian_Miracle_Tile.MapEntry: The Insulindian Miracle
+			KimPortrait_Tile.MapEntry: Sunrise, Parabellum
+			Noon_Sunset_Tile.MapEntry: Noon Sunset
+			packpng_Tile.MapEntry: pack.png
+			Pirate_Doing_Tile.MapEntry: Pirate Doing
+			Reflection_Tile.MapEntry: Reflection
+			Resonant_Plains_Tile.MapEntry: Resonant Plains
+			Seafarers_Sunset_Tile.MapEntry: Seafarer's Sunset
+			Seven_Hour_Sunset_Tile.MapEntry: Seven Hour Sunset
+			Shadow_Boundaries_Tile.MapEntry: Shadow Boundaries
+			The_Coastal_Obscure_Tile.MapEntry: The Coastal Obscure
+			The_Lower_Path_Tile.MapEntry: The Lower Path
+			The_Man_With_One_Initial_Tile.MapEntry: The Man With One Initial
+			Thoughts_On_The_Rainy_Season_Tile.MapEntry: Thoughts On The Rain Season
+			Purple_Mushroom_Small_Tile.MapEntry: Purple Mushroom
+			Red_Mushroom_Small_Tile.MapEntry: Red Mushroom
+			Roots_Tile.MapEntry: Roots
+			Seeded_Lifesap_Bush_Tile.MapEntry: Lifesap Bush
+			Small_Snow_Pile_Tile.MapEntry: Snow Pile
+			Snow_Bushes_Tile.MapEntry: Snow Bush
+			Snow_Grasses_Tile.MapEntry: Snow Grass
+			Snow_Pile_Tile.MapEntry: Snow Pile
+			Sunspot_Tile.MapEntry: Sunspot
+			Wall_Mushroom_Tile.MapEntry: Wall Mushroom
+			Birch_Tree.MapEntry: Birch Tree
+			Leafy_Plant_Tile.MapEntry: Leafy Plant
+			Magmabulb_Tile.MapEntry: Magmabulb
+			Raindrop_Lotus_Tile.MapEntry: Raindrop Lotus
+			Breezepetal_Tile.MapEntry: Breezepetal
+			Dune_Grasses_Tile.MapEntry: Dune Grass
+			Thermal_Vent_Tile.MapEntry: Thermal Vent
+		}
+
+		Buffs: {
+			EntlingBuff: {
+				DisplayName: Entling
+				Description: An entling is lighting your way
+			}
+
+			Pukeko_Buff: {
+				DisplayName: Pukeko Chick
+				Description: "'With legs to walk the world'"
+			}
+		}
+
+		Items: {
+			Suspicious_Looking_Dice: {
+				DisplayName: Suspicious Looking Dice
+				Tooltip: ""
+			}
+
+			Classic_Cape: {
+				DisplayName: Classic Cape
+				Tooltip: ""
+			}
+
+			Lifesap_Branch: {
+				DisplayName: Lifesap Branch
+				Tooltip: ""
+			}
+
+			Pukeko_Egg: {
+				DisplayName: Pukeko Egg
+				Tooltip: ""
+			}
+
+			Basalt: {
+				DisplayName: Basalt
+				Tooltip: ""
+			}
+
+			Birch_Wood: {
+				DisplayName: Birch Wood
+				Tooltip: ""
+			}
+
+			Columnar_Basalt: {
+				DisplayName: Columnar Basalt
+				Tooltip: ""
+			}
+
+			Conglomerate_Stone: {
+				DisplayName: Conglomerate Stone
+				Tooltip: ""
+			}
+
+			Gabbro: {
+				DisplayName: Gabbro
+				Tooltip: ""
+			}
+
+			Gabbro_Brick: {
+				DisplayName: Gabbro Brick
+				Tooltip: ""
+			}
+
+			Gabbro_Brick_Platform: {
+				DisplayName: Gabbro Brick Platform
+				Tooltip: ""
+			}
+
+			Gabbro_Slab: {
+				DisplayName: Gabbro Slab
+				Tooltip: ""
+			}
+
+			Gabbro_Amethyst: {
+				DisplayName: Gabbro Amethyst
+				Tooltip: ""
+			}
+
+			Gabbro_Diamond: {
+				DisplayName: Gabbro Diamond
+				Tooltip: ""
+			}
+
+			Gabbro_Emerald: {
+				DisplayName: Gabbro Emerald
+				Tooltip: ""
+			}
+
+			Gabbro_Ruby: {
+				DisplayName: Gabbro Ruby
+				Tooltip: ""
+			}
+
+			Gabbro_Sapphire: {
+				DisplayName: Gabbro Sapphire
+				Tooltip: ""
+			}
+
+			Gabbro_Topaz: {
+				DisplayName: Gabbro Topaz
+				Tooltip: ""
+			}
+
+			Limestone: {
+				DisplayName: Limestone
+				Tooltip: ""
+			}
+
+			Log: {
+				DisplayName: Log
+				Tooltip: ""
+			}
+
+			Meadow_Grass_Seeds: {
+				DisplayName: Meadow Grass Seeds
+				Tooltip: ""
+			}
+
+			Polished_Stone_Brick: {
+				DisplayName: Polished Stone Brick
+				Tooltip: ""
+			}
+
+			Shellstone: {
+				DisplayName: Shellstone
+				Tooltip: ""
+			}
+
+			Slate: {
+				DisplayName: Slate
+				Tooltip: ""
+			}
+
+			Smooth_Limestone: {
+				DisplayName: Smooth Limestone
+				Tooltip: ""
+			}
+
+			Worn_Gray_Brick: {
+				DisplayName: Worn Gray Brick
+				Tooltip: ""
+			}
+
+			Worn_Limestone: {
+				DisplayName: Worn Limestone
+				Tooltip: ""
+			}
+
+			Birch_Catkin: {
+				DisplayName: Birch Catkin
+				Tooltip: ""
+			}
+
+			Brown_Mushroom_Large: {
+				DisplayName: Large Brown Mushroom
+				Tooltip: ""
+			}
+
+			Brown_Mushroom_Medium: {
+				DisplayName: Medium Brown Mushroom
+				Tooltip: ""
+			}
+
+			Brown_Mushroom_Small: {
+				DisplayName: Small Brown Mushroom
+				Tooltip: ""
+			}
+
+			Bushes: {
+				DisplayName: Bush
+				Tooltip: ""
+			}
+
+			Cacti: {
+				DisplayName: Cacti
+				Tooltip: Is not destroyed when not near water
+			}
+
+			Compressed_Gold: {
+				DisplayName: Compressed Gold
+				Tooltip: ""
+			}
+
+			Corrupt_Bush: {
+				DisplayName: Corrupt Bush
+				Tooltip: ""
+			}
+
+			Crimson_Bush: {
+				DisplayName: Crimson Bush
+				Tooltip: ""
+			}
+
+			Birch_Bathtub: {
+				DisplayName: Birch Bathtub
+				Tooltip: ""
+			}
+
+			Birch_Bed: {
+				DisplayName: Birch Bed
+				Tooltip: ""
+			}
+
+			Birch_Bookcase: {
+				DisplayName: Birch Bookcase
+				Tooltip: ""
+			}
+
+			Birch_Candelabra: {
+				DisplayName: Birch Candelabra
+				Tooltip: ""
+			}
+
+			Birch_Candle: {
+				DisplayName: Birch Candle
+				Tooltip: ""
+			}
+
+			Birch_Chair: {
+				DisplayName: Birch Chair
+				Tooltip: ""
+			}
+
+			Birch_Chandelier: {
+				DisplayName: Birch Chandelier
+				Tooltip: ""
+			}
+
+			Birch_Chest: {
+				DisplayName: Birch Chest
+				Tooltip: ""
+			}
+
+			Birch_Clock: {
+				DisplayName: Birch Clock
+				Tooltip: ""
+			}
+
+			Birch_Door: {
+				DisplayName: Birch Door
+				Tooltip: ""
+			}
+
+			Birch_Dresser: {
+				DisplayName: Birch Dresser
+				Tooltip: ""
+			}
+
+			Birch_Lamp: {
+				DisplayName: Birch Lamp
+				Tooltip: ""
+			}
+
+			Birch_Lantern: {
+				DisplayName: Birch Lantern
+				Tooltip: ""
+			}
+
+			Birch_Piano: {
+				DisplayName: Birch Piano
+				Tooltip: ""
+			}
+
+			Birch_Sink: {
+				DisplayName: Birch Sink
+				Tooltip: ""
+			}
+
+			Birch_Sofa: {
+				DisplayName: Birch Sofa
+				Tooltip: ""
+			}
+
+			Birch_Table: {
+				DisplayName: Birch Table
+				Tooltip: ""
+			}
+
+			Birch_Toilet: {
+				DisplayName: Birch Toilet
+				Tooltip: ""
+			}
+
+			Birch_Workbench: {
+				DisplayName: Birch Workbench
+				Tooltip: ""
+			}
+
+			Gabbro_Rubble_Large: {
+				DisplayName: Large Gabbro Rubble
+				Tooltip: ""
+			}
+
+			Gabbro_Rubble_Medium: {
+				DisplayName: Medium Gabbro Rubble
+				Tooltip: ""
+			}
+
+			Gabbro_Rubble_Small: {
+				DisplayName: Small Gabbro Rubble
+				Tooltip: ""
+			}
+
+			Gabbro_Stalactite: {
+				DisplayName: Gabbro Stalactite
+				Tooltip: ""
+			}
+
+			Gabbro_Stalagmite: {
+				DisplayName: Gabbro Stalagmite
+				Tooltip: ""
+			}
+
+			Hallowed_Bush: {
+				DisplayName: Hallowed Bush
+				Tooltip: ""
+			}
+
+			Lifesap_Seedling: {
+				DisplayName: Lifesap Seedling
+				Tooltip: ""
+			}
+
+			Limestone_Rubble_Large: {
+				DisplayName: Large Limestone Rubble
+				Tooltip: ""
+			}
+
+			Limestone_Rubble_Medium: {
+				DisplayName: Medium Limestone Rubble
+				Tooltip: ""
+			}
+
+			Limestone_Rubble_Small: {
+				DisplayName: Small Limestone Rubble
+				Tooltip: ""
+			}
+
+			Limestone_Stalactite: {
+				DisplayName: Limestone Stalactite
+				Tooltip: ""
+			}
+
+			Limestone_Stalagmite: {
+				DisplayName: Limestone Stalagmite
+				Tooltip: ""
+			}
+
+			Limestone_Stalagnate: {
+				DisplayName: Limestone Stalagnate
+				Tooltip: ""
+			}
+
+			Moonbell: {
+				DisplayName: Moonbell
+				Tooltip: Creates a grotto biome when placed underground
+			}
+
+			Atlas_Poster: {
+				DisplayName: 16/16/16
+				Tooltip: ""
+			}
+
+			Celestial_Peak: {
+				DisplayName: Celestial Peak
+				Tooltip: ""
+			}
+
+			Comfortable_Loneliness: {
+				DisplayName: Comfortable Loneliness
+				Tooltip: ""
+			}
+
+			Insulindian_Miracle: {
+				DisplayName: The Insulindian Miracle
+				Tooltip: ""
+			}
+
+			KimPortrait: {
+				DisplayName: Sunrise, Parabellum
+				Tooltip: ""
+			}
+
+			Noon_Sunset: {
+				DisplayName: Noon Sunset
+				Tooltip: ""
+			}
+
+			packpng: {
+				DisplayName: pack.png
+				Tooltip: ""
+			}
+
+			Pirate_Doing: {
+				DisplayName: Pirate Doing
+				Tooltip: ""
+			}
+
+			Reflection: {
+				DisplayName: Reflection
+				Tooltip: ""
+			}
+
+			Resonant_Plains: {
+				DisplayName: Resonant Plains
+				Tooltip: ""
+			}
+
+			Seafarers_Sunset: {
+				DisplayName: Seafarer's Sunset
+				Tooltip: ""
+			}
+
+			Seven_Hour_Sunset: {
+				DisplayName: Seven Hour Sunset
+				Tooltip: ""
+			}
+
+			Shadow_Boundaries: {
+				DisplayName: Shadow Boundaries
+				Tooltip: ""
+			}
+
+			The_Coastal_Obscure: {
+				DisplayName: The Coastal Obscure
+				Tooltip: ""
+			}
+
+			The_Lower_Path: {
+				DisplayName: The Lower Path
+				Tooltip: ""
+			}
+
+			Thoughts_On_The_Rainy_Season: {
+				DisplayName: Thoughts On The Rain Season
+				Tooltip: ""
+			}
+
+			Purple_Mushroom_Small: {
+				DisplayName: Purple Mushroom
+				Tooltip: ""
+			}
+
+			Red_Mushroom_Small: {
+				DisplayName: Red Mushroom
+				Tooltip: ""
+			}
+
+			Roots: {
+				DisplayName: Roots
+				Tooltip: ""
+			}
+
+			Small_Snow_Pile: {
+				DisplayName: Small Snow Pile
+				Tooltip: ""
+			}
+
+			Snow_Bushes: {
+				DisplayName: Snow Bush
+				Tooltip: ""
+			}
+
+			Snow_Grasses: {
+				DisplayName: Snow Grass
+				Tooltip: ""
+			}
+
+			Snow_Pile: {
+				DisplayName: Snow Pile
+				Tooltip: ""
+			}
+
+			Sunspot: {
+				DisplayName: Sunspot
+				Tooltip: Creates a grotto biome when placed underground
+			}
+
+			Tile_Protector: {
+				DisplayName: Tile Protector
+				Tooltip: ""
+			}
+
+			Wall_Mushroom: {
+				DisplayName: Wall Mushroom
+				Tooltip: ""
+			}
+
+			Basalt_Wall: {
+				DisplayName: Basalt Wall
+				Tooltip: ""
+			}
+
+			Basalt_Wall_Unsafe: {
+				DisplayName: Basalt Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Birch_Wood_Wall: {
+				DisplayName: Birch Wood Wall
+				Tooltip: ""
+			}
+
+			Columnar_Basalt_Wall: {
+				DisplayName: Columnar Basalt Wall
+				Tooltip: ""
+			}
+
+			Columnar_Basalt_Wall_Unsafe: {
+				DisplayName: Columnar Basalt Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Gabbro_Brick_Wall: {
+				DisplayName: Gabbro Brick Wall
+				Tooltip: ""
+			}
+
+			Gabbro_Slab_Wall: {
+				DisplayName: Gabbro Slab Wall
+				Tooltip: ""
+			}
+
+			Gabbro_Wall: {
+				DisplayName: Gabbro Wall
+				Tooltip: ""
+			}
+
+			Gabbro_Wall_Unsafe: {
+				DisplayName: Gabbro Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Generation_Wall: {
+				DisplayName: Generation Wall
+				Tooltip: ""
+			}
+
+			Horizontal_Log_Wall: {
+				DisplayName: Horizontal Log Wall
+				Tooltip: ""
+			}
+
+			Limestone_Wall: {
+				DisplayName: Limestone Wall
+				Tooltip: ""
+			}
+
+			Limestone_Wall_Unsafe: {
+				DisplayName: Limestone Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Polished_Stone_Brick_Wall: {
+				DisplayName: Polished Stone Brick Wall
+				Tooltip: ""
+			}
+
+			Slate_Wall: {
+				DisplayName: Slate Wall
+				Tooltip: ""
+			}
+
+			Slate_Wall_Unsafe: {
+				DisplayName: Slate Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Smooth_Limestone_Wall: {
+				DisplayName: Smooth Limestone Wall
+				Tooltip: ""
+			}
+
+			Smooth_Limestone_Wall_Unsafe: {
+				DisplayName: Smooth Limestone Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Vertical_Log_Wall: {
+				DisplayName: Vertical Log Wall
+				Tooltip: ""
+			}
+
+			Worn_Gray_Brick_Wall: {
+				DisplayName: Worn Gray Brick Wall
+				Tooltip: ""
+			}
+
+			Rock_and_Roll: {
+				DisplayName: Rock and Roll
+				Tooltip: ""
+			}
+
+			Black_Powder_Pouch: {
+				DisplayName: Black Powder Pouch
+				Tooltip:
+					'''
+					Striking enemies has a small chance to cause an explosion, dealing extra damage in an area 
+					Explosion damage caps at 45
+					'''
+			}
+
+			Leafy_Plant: {
+				DisplayName: Leafy Plant
+				Tooltip: ""
+			}
+
+			Wood_Lattice: {
+				DisplayName: Wood Lattice
+				Tooltip: ""
+			}
+
+			Magmabulb: {
+				DisplayName: Magmabulb
+				Tooltip: ""
+			}
+
+			Bound_Vertical_Log_Wall: {
+				DisplayName: Bound Vertical Log Wall
+				Tooltip: ""
+			}
+
+			Bound_Vertical_Log_Wall_Unsafe: {
+				DisplayName: Bound Vertical Log Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Horizontal_Log_Wall_Unsafe: {
+				DisplayName: Horizontal Log Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Vertical_Log_Wall_Unsafe: {
+				DisplayName: Vertical Log Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Wood_Lattice_Unsafe: {
+				DisplayName: Wood Lattice (Unsafe)
+				Tooltip: ""
+			}
+
+			Log_Fence: {
+				DisplayName: Log Fence
+				Tooltip: ""
+			}
+
+			Log_Fence_Unsafe: {
+				DisplayName: Log Fence (Unsafe)
+				Tooltip: ""
+			}
+
+			Decorated_Vertical_Log_Wall: {
+				DisplayName: Decorated Vertical Log Wall
+				Tooltip: ""
+			}
+
+			Decorated_Vertical_Log_Wall_Unsafe: {
+				DisplayName: Decorated Vertical Log Wall (Unsafe)
+				Tooltip: ""
+			}
+
+			Raindrop_Lotus: {
+				DisplayName: Raindrop Lotus
+				Tooltip: ""
+			}
+
+			Breezepetal: {
+				DisplayName: Breezepetal
+				Tooltip: ""
+			}
+
+			Dune_Grasses: {
+				DisplayName: Dune Grass
+				Tooltip: ""
+			}
+
+			Thermal_Vent: {
+				DisplayName: Thermal_ Vent
+				Tooltip: ""
+			}
+
+			LimestoneWaterStyleIcon_Blue: {
+				DisplayName: Limestone Water Style Icon: Blue
+				Tooltip: ""
+			}
+
+			LimestoneWaterStyleIcon_ClearBlue: {
+				DisplayName: Limestone Water Style Icon: Clear Blue
+				Tooltip: ""
+			}
+
+			LimestoneWaterStyleIcon_PaleBlue: {
+				DisplayName: Limestone Water Style Icon: Pale Blue
+				Tooltip: ""
+			}
+		}
+
+		NPCs.Entling.DisplayName: Entling
+
+		Projectiles: {
+			Entling_Projectile.DisplayName: Entling Projectile
+			Pukeko_Projectile.DisplayName: Pukeko Projectile
+			Rock_and_Roll_Projectile.DisplayName: Rock and Roll Projectile
+			Rock_Projectile.DisplayName: Rock Projectile
+			Black_Powder_Explosion.DisplayName: Black Powder Explosion
+		}
+
+		Configs: {
+			RuinSeekerConfigClient: {
+				DisplayName: Ruin Seeker Client Config
+
+				Headers: {
+					Generation: "[i:4765] Generation"
+					Visuals: "[i:5354] Visuals"
+					ModCompatibility: "[i:1344] Mod Compatibility"
+				}
+
+				genArena: {
+					Label: "[i:3905] Construct an Arena"
+					Tooltip: Generates a boss arena near the center of the world
+				}
+
+				genBadlands: {
+					Label: "[i:3271] Weather the Badlands"
+					Tooltip: Generate a badlands microbiome in the desert
+				}
+
+				genDesertTree: {
+					Label: "[i:3272] Grow a Desert Tree"
+					Tooltip: Generate a bleached tree in the desert
+				}
+
+				genJungleFossilStone: {
+					Label: "[i:RuinSeeker/Shellstone] Fossilize Jungle Stone"
+					Tooltip: Generates gray painted shell piles and living mahogany inside jungle stone
+				}
+
+				genThinIceSpikes: {
+					Label: "[i:4391] Generate Thin Ice Spikes"
+					Tooltip: Generates small thin ice spikes on the ground in the snow biome
+				}
+
+				genOceanSeaweed: {
+					Label: "[i:1112] Generate Seaweed in the Ocean"
+					Tooltip:
+						'''
+						Generates seaweed inside the surface layer in the ocean 
+						Consider disabling this for mods like Spirit which add their own ocean decoration 
+						Leaving this on in such a case shouldn't cause issues regardless, this is only useful for aesthetic preferences
+						'''
+				}
+
+				genMinecartSupportsOnWalls: {
+					Label: "[i:RuinSeeker/Decorated_Vertical_Log_Wall] Generate Minecart Support Beams over walls"
+					Tooltip: Minecart track support beams override any walls in their way
+				}
+
+				doMushroomSpores: {
+					Label: "[i:RuinSeeker/Brown_Mushroom_Small] Mushrooms emit spore clouds"
+					Tooltip: ""
+				}
+
+				deleteSLRLeafWalls: {
+					Label: "[i:745] Remove Starlight River Leaf Walls"
+					Tooltip:
+						'''
+						SLR leaf walls often improperly generate in strange places, like on top of forest structures 
+						This setting will delete all SLR leaf walls on world generation
+						'''
+				}
+
+				doMagmaLayerGlow: {
+					Label: "[i:1322] Thermal Caves magma layer background glows"
+					Tooltip: Enable this setting to enable faint lighting on all non-solid tiles without walls in the Thermal Caves magma layer.
+				}
+
+				limestoneWaterColor: {
+					Label: "[i:206] Limestone Cave Water Color"
+					Tooltip:
+						'''
+						[i:RuinSeeker/LimestoneWaterStyleIcon_ClearBlue] Clear Blue
+						[i:RuinSeeker/LimestoneWaterStyleIcon_Blue] Blue
+						[i:RuinSeeker/LimestoneWaterStyleIcon_PaleBlue] Pale Blue
+						'''
+				}
+			}
+		}
+
+		Conditions.IsHardmode: World is in Hardmode
+	}
+}
